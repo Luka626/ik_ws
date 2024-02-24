@@ -1,0 +1,11 @@
+[35m[1mConsolidate compiler generated dependencies of target ik_hardware_interface[0m
+[35m[1mConsolidate compiler generated dependencies of target uorover_ik[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o[0m
+[ 75%] Built target uorover_ik
+[01m[K/home/luka/ws_moveit2/src/uorover_ik/src/ik_hardware_interface.cpp:[m[K In constructor ‘[01m[KIKHardwareInterface::IKHardwareInterface()[m[K’:
+[01m[K/home/luka/ws_moveit2/src/uorover_ik/src/ik_hardware_interface.cpp:39:81:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_callback[m[K’ is not a member of ‘[01m[KIKHardwareInterface[m[K’
+   39 |         timer_ = this->create_wall_timer(500ms, std::bind(&IKHardwareInterface::[01;31m[Ktimer_callback[m[K, this));
+      |                                                                                 [01;31m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ik_hardware_interface.dir/build.make:76: CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/ik_hardware_interface.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

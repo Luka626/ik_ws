@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: uorover_arm
+    relative_path: urdf/crane.urdf
+  srdf:
+    relative_path: config/crane.srdf
+  package_settings:
+    author_name: Luka Andjelic
+    author_email: landj072@uottawa.ca
+    generated_timestamp: 1706720134
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

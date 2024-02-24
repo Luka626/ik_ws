@@ -1,0 +1,7 @@
+# Default initial positions for crane's ros2_control fake system
+
+initial_positions:
+  q1: 0
+  q2: 0
+  q3: 0
+  q4: 0

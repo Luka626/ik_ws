@@ -1,0 +1,4 @@
+source;share/uorover_ik/local_setup.bash
+source;share/uorover_ik/local_setup.dsv
+source;share/uorover_ik/local_setup.sh
+source;share/uorover_ik/local_setup.zsh

@@ -1,0 +1,242 @@
+[0.000000] (-) TimerEvent: {}
+[0.000087] (uorover_arm) JobQueued: {'identifier': 'uorover_arm', 'dependencies': OrderedDict()}
+[0.000157] (uorover_ik) JobQueued: {'identifier': 'uorover_ik', 'dependencies': OrderedDict()}
+[0.000205] (uorover_moveit_config) JobQueued: {'identifier': 'uorover_moveit_config', 'dependencies': OrderedDict([('uorover_arm', '/home/luka/ws_moveit2/install/uorover_arm')])}
+[0.000244] (uorover_arm) JobStarted: {'identifier': 'uorover_arm'}
+[0.083445] (uorover_ik) JobStarted: {'identifier': 'uorover_ik'}
+[0.099816] (-) TimerEvent: {}
+[0.200033] (-) TimerEvent: {}
+[0.300270] (-) TimerEvent: {}
+[0.400909] (-) TimerEvent: {}
+[0.440300] (uorover_ik) JobProgress: {'identifier': 'uorover_ik', 'progress': 'cmake'}
+[0.442141] (uorover_ik) JobProgress: {'identifier': 'uorover_ik', 'progress': 'build'}
+[0.442177] (uorover_ik) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/luka/ws_moveit2/build/uorover_ik', '--', '-j12', '-l12'], 'cwd': '/home/luka/ws_moveit2/build/uorover_ik', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('DBUS_SESSION_DBUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('TMUX', '/tmp/tmux-1000/default,26750,0'), ('LANGUAGE', 'en_CA:en'), ('USER', 'luka'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/home/luka/rover_workspace/src/chassis_controls/lib/x86-64:/home/luka/rover_workspace/src/chassis_controls/lib/x86-64'), ('HOME', '/home/luka'), ('OLDPWD', '/home/luka'), ('TERM_PROGRAM_VERSION', '3.2a'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2334'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'luka'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luka'), ('TERM', 'screen'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/luka/.local/bin:/opt/ros/humble/bin:/home/luka/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/luka072:@/tmp/.ICE-unix/2052,unix/luka072:/tmp/.ICE-unix/2052'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5874f46e_facb_40bd_9306_f7fd24338687'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.200'), ('TERM_PROGRAM', 'tmux'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luka/ws_moveit2/build/uorover_ik'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('TMUX_PANE', '%0'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.484870] (uorover_ik) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.501003] (-) TimerEvent: {}
+[0.601281] (-) TimerEvent: {}
+[0.603661] (uorover_ik) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)\n'}
+[0.617816] (uorover_ik) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread \n'}
+[0.645071] (uorover_ik) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.647550] (uorover_ik) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.653221] (uorover_ik) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.664252] (uorover_ik) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.678372] (uorover_ik) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.701357] (-) TimerEvent: {}
+[0.799021] (uorover_arm) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/uorover_arm', 'build', '--build-base', '/home/luka/ws_moveit2/build/uorover_arm/build', 'install', '--record', '/home/luka/ws_moveit2/build/uorover_arm/install.log', '--single-version-externally-managed'], 'cwd': '/home/luka/ws_moveit2/src/uorover_arm', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'DBUS_SESSION_DBUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'TMUX': '/tmp/tmux-1000/default,26750,0', 'LANGUAGE': 'en_CA:en', 'USER': 'luka', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/home/luka/rover_workspace/src/chassis_controls/lib/x86-64:/home/luka/rover_workspace/src/chassis_controls/lib/x86-64', 'HOME': '/home/luka', 'OLDPWD': '/home/luka', 'TERM_PROGRAM_VERSION': '3.2a', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2334', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'luka', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'luka', 'TERM': 'screen', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/luka/.local/bin:/opt/ros/humble/bin:/home/luka/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/luka072:@/tmp/.ICE-unix/2052,unix/luka072:/tmp/.ICE-unix/2052', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5874f46e_facb_40bd_9306_f7fd24338687', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_CA.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.200', 'TERM_PROGRAM': 'tmux', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/luka/ws_moveit2/build/uorover_arm', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/luka/ws_moveit2/build/uorover_arm/prefix_override:/home/luka/ws_moveit2/install/uorover_arm/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'TMUX_PANE': '%0'}, 'shell': False}
+[0.801417] (-) TimerEvent: {}
+[0.901631] (-) TimerEvent: {}
+[1.001863] (-) TimerEvent: {}
+[1.033610] (uorover_arm) StdoutLine: {'line': b'running egg_info\n'}
+[1.034214] (uorover_arm) StdoutLine: {'line': b'writing ../../build/uorover_arm/uorover_arm.egg-info/PKG-INFO\n'}
+[1.034502] (uorover_arm) StdoutLine: {'line': b'writing dependency_links to ../../build/uorover_arm/uorover_arm.egg-info/dependency_links.txt\n'}
+[1.034632] (uorover_arm) StdoutLine: {'line': b'writing entry points to ../../build/uorover_arm/uorover_arm.egg-info/entry_points.txt\n'}
+[1.034719] (uorover_arm) StdoutLine: {'line': b'writing requirements to ../../build/uorover_arm/uorover_arm.egg-info/requires.txt\n'}
+[1.034984] (uorover_arm) StdoutLine: {'line': b'writing top-level names to ../../build/uorover_arm/uorover_arm.egg-info/top_level.txt\n'}
+[1.037792] (uorover_arm) StdoutLine: {'line': b"reading manifest file '../../build/uorover_arm/uorover_arm.egg-info/SOURCES.txt'\n"}
+[1.039292] (uorover_arm) StdoutLine: {'line': b"writing manifest file '../../build/uorover_arm/uorover_arm.egg-info/SOURCES.txt'\n"}
+[1.039639] (uorover_arm) StdoutLine: {'line': b'running build\n'}
+[1.039742] (uorover_arm) StdoutLine: {'line': b'running build_py\n'}
+[1.039977] (uorover_arm) StdoutLine: {'line': b'running install\n'}
+[1.040262] (uorover_arm) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.040352] (uorover_arm) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.040547] (uorover_arm) StdoutLine: {'line': b'running install_lib\n'}
+[1.041824] (uorover_arm) StdoutLine: {'line': b'running install_data\n'}
+[1.043220] (uorover_arm) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.044536] (uorover_arm) StdoutLine: {'line': b"removing '/home/luka/ws_moveit2/install/uorover_arm/lib/python3.10/site-packages/uorover_arm-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.044809] (uorover_arm) StdoutLine: {'line': b'Copying ../../build/uorover_arm/uorover_arm.egg-info to /home/luka/ws_moveit2/install/uorover_arm/lib/python3.10/site-packages/uorover_arm-0.0.0-py3.10.egg-info\n'}
+[1.045606] (uorover_arm) StdoutLine: {'line': b'running install_scripts\n'}
+[1.062142] (uorover_arm) StdoutLine: {'line': b"writing list of installed files to '/home/luka/ws_moveit2/build/uorover_arm/install.log'\n"}
+[1.078228] (uorover_arm) CommandEnded: {'returncode': 0}
+[1.102152] (-) TimerEvent: {}
+[1.141385] (uorover_arm) JobEnded: {'identifier': 'uorover_arm', 'rc': 0}
+[1.142456] (uorover_moveit_config) JobStarted: {'identifier': 'uorover_moveit_config'}
+[1.201680] (uorover_moveit_config) JobProgress: {'identifier': 'uorover_moveit_config', 'progress': 'cmake'}
+[1.202243] (-) TimerEvent: {}
+[1.203381] (uorover_moveit_config) JobProgress: {'identifier': 'uorover_moveit_config', 'progress': 'build'}
+[1.203414] (uorover_moveit_config) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/luka/ws_moveit2/build/uorover_moveit_config', '--', '-j12', '-l12'], 'cwd': '/home/luka/ws_moveit2/build/uorover_moveit_config', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('DBUS_SESSION_DBUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('TMUX', '/tmp/tmux-1000/default,26750,0'), ('LANGUAGE', 'en_CA:en'), ('USER', 'luka'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/home/luka/rover_workspace/src/chassis_controls/lib/x86-64:/home/luka/rover_workspace/src/chassis_controls/lib/x86-64'), ('HOME', '/home/luka'), ('OLDPWD', '/home/luka'), ('TERM_PROGRAM_VERSION', '3.2a'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2334'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'luka'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luka'), ('TERM', 'screen'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/luka/.local/bin:/opt/ros/humble/bin:/home/luka/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/luka072:@/tmp/.ICE-unix/2052,unix/luka072:/tmp/.ICE-unix/2052'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5874f46e_facb_40bd_9306_f7fd24338687'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.200'), ('TERM_PROGRAM', 'tmux'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/luka/ws_moveit2/install/uorover_arm:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luka/ws_moveit2/build/uorover_moveit_config'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/luka/ws_moveit2/install/uorover_arm/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('TMUX_PANE', '%0'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.237905] (uorover_moveit_config) CommandEnded: {'returncode': 0}
+[1.258144] (uorover_moveit_config) JobProgress: {'identifier': 'uorover_moveit_config', 'progress': 'install'}
+[1.266621] (uorover_moveit_config) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/luka/ws_moveit2/build/uorover_moveit_config'], 'cwd': '/home/luka/ws_moveit2/build/uorover_moveit_config', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('DBUS_SESSION_DBUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('TMUX', '/tmp/tmux-1000/default,26750,0'), ('LANGUAGE', 'en_CA:en'), ('USER', 'luka'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/home/luka/rover_workspace/src/chassis_controls/lib/x86-64:/home/luka/rover_workspace/src/chassis_controls/lib/x86-64'), ('HOME', '/home/luka'), ('OLDPWD', '/home/luka'), ('TERM_PROGRAM_VERSION', '3.2a'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2334'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'luka'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luka'), ('TERM', 'screen'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/luka/.local/bin:/opt/ros/humble/bin:/home/luka/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/luka072:@/tmp/.ICE-unix/2052,unix/luka072:/tmp/.ICE-unix/2052'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5874f46e_facb_40bd_9306_f7fd24338687'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.200'), ('TERM_PROGRAM', 'tmux'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/luka/ws_moveit2/install/uorover_arm:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luka/ws_moveit2/build/uorover_moveit_config'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/luka/ws_moveit2/install/uorover_arm/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('TMUX_PANE', '%0'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.276234] (uorover_moveit_config) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.276608] (uorover_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/luka/ws_moveit2/install/uorover_moveit_config/share/ament_index/resource_index/package_run_dependencies/uorover_moveit_config\n'}
+[1.276797] (uorover_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/luka/ws_moveit2/install/uorover_moveit_config/share/ament_index/resource_index/parent_prefix_path/uorover_moveit_config\n'}
+[1.277080] (uorover_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/luka/ws_moveit2/install/uorover_moveit_config/share/uorover_moveit_config/environment/ament_prefix_path.sh\n'}
+[1.277416] (uorover_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/luka/ws_moveit2/install/uorover_moveit_config/share/uorover_moveit_config/environment/ament_prefix_path.dsv\n'}
+[1.277506] (uorover_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/luka/ws_moveit2/install/uorover_moveit_config/share/uorover_moveit_config/environment/path.sh\n'}
+[1.277563] (uorover_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/luka/ws_moveit2/install/uorover_moveit_config/share/uorover_moveit_config/environment/path.dsv\n'}
+[1.277615] (uorover_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/luka/ws_moveit2/install/uorover_moveit_config/share/uorover_moveit_config/local_setup.bash\n'}
+[1.277672] (uorover_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/luka/ws_moveit2/install/uorover_moveit_config/share/uorover_moveit_config/local_setup.sh\n'}
+[1.277722] (uorover_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/luka/ws_moveit2/install/uorover_moveit_config/share/uorover_moveit_config/local_setup.zsh\n'}
+[1.277771] (uorover_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/luka/ws_moveit2/install/uorover_moveit_config/share/uorover_moveit_config/local_setup.dsv\n'}
+[1.277821] (uorover_moveit_config) StdoutLine: {'line': b'-- Installing: /home/luka/ws_moveit2/install/uorover_moveit_config/share/uorover_moveit_config/package.dsv\n'}
+[1.277882] (uorover_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/luka/ws_moveit2/install/uorover_moveit_config/share/ament_index/resource_index/packages/uorover_moveit_config\n'}
+[1.278031] (uorover_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/luka/ws_moveit2/install/uorover_moveit_config/share/uorover_moveit_config/cmake/uorover_moveit_configConfig.cmake\n'}
+[1.278151] (uorover_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/luka/ws_moveit2/install/uorover_moveit_config/share/uorover_moveit_config/cmake/uorover_moveit_configConfig-version.cmake\n'}
+[1.278210] (uorover_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/luka/ws_moveit2/install/uorover_moveit_config/share/uorover_moveit_config/package.xml\n'}
+[1.278287] (uorover_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/luka/ws_moveit2/install/uorover_moveit_config/share/uorover_moveit_config/launch\n'}
+[1.278417] (uorover_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/luka/ws_moveit2/install/uorover_moveit_config/share/uorover_moveit_config/launch/demo.launch.py\n'}
+[1.278500] (uorover_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/luka/ws_moveit2/install/uorover_moveit_config/share/uorover_moveit_config/launch/moveit_rviz.launch.py\n'}
+[1.278566] (uorover_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/luka/ws_moveit2/install/uorover_moveit_config/share/uorover_moveit_config/launch/warehouse_db.launch.py\n'}
+[1.278617] (uorover_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/luka/ws_moveit2/install/uorover_moveit_config/share/uorover_moveit_config/launch/static_virtual_joint_tfs.launch.py\n'}
+[1.278668] (uorover_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/luka/ws_moveit2/install/uorover_moveit_config/share/uorover_moveit_config/launch/rsp.launch.py\n'}
+[1.278719] (uorover_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/luka/ws_moveit2/install/uorover_moveit_config/share/uorover_moveit_config/launch/setup_assistant.launch.py\n'}
+[1.278807] (uorover_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/luka/ws_moveit2/install/uorover_moveit_config/share/uorover_moveit_config/launch/move_group.launch.py\n'}
+[1.278912] (uorover_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/luka/ws_moveit2/install/uorover_moveit_config/share/uorover_moveit_config/launch/spawn_controllers.launch.py\n'}
+[1.278966] (uorover_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/luka/ws_moveit2/install/uorover_moveit_config/share/uorover_moveit_config/config\n'}
+[1.279016] (uorover_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/luka/ws_moveit2/install/uorover_moveit_config/share/uorover_moveit_config/config/crane.srdf\n'}
+[1.279066] (uorover_moveit_config) StdoutLine: {'line': b'-- Installing: /home/luka/ws_moveit2/install/uorover_moveit_config/share/uorover_moveit_config/config/moveit.rviz\n'}
+[1.279134] (uorover_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/luka/ws_moveit2/install/uorover_moveit_config/share/uorover_moveit_config/config/initial_positions.yaml\n'}
+[1.279228] (uorover_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/luka/ws_moveit2/install/uorover_moveit_config/share/uorover_moveit_config/config/crane.ros2_control.xacro\n'}
+[1.279304] (uorover_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/luka/ws_moveit2/install/uorover_moveit_config/share/uorover_moveit_config/config/crane.urdf.xacro\n'}
+[1.279373] (uorover_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/luka/ws_moveit2/install/uorover_moveit_config/share/uorover_moveit_config/config/moveit_controllers.yaml\n'}
+[1.279423] (uorover_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/luka/ws_moveit2/install/uorover_moveit_config/share/uorover_moveit_config/config/pilz_cartesian_limits.yaml\n'}
+[1.279474] (uorover_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/luka/ws_moveit2/install/uorover_moveit_config/share/uorover_moveit_config/config/joint_limits.yaml\n'}
+[1.279523] (uorover_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/luka/ws_moveit2/install/uorover_moveit_config/share/uorover_moveit_config/config/ros2_controllers.yaml\n'}
+[1.279709] (uorover_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/luka/ws_moveit2/install/uorover_moveit_config/share/uorover_moveit_config/config/kinematics.yaml\n'}
+[1.279760] (uorover_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/luka/ws_moveit2/install/uorover_moveit_config/share/uorover_moveit_config/.setup_assistant\n'}
+[1.280819] (uorover_moveit_config) CommandEnded: {'returncode': 0}
+[1.302416] (-) TimerEvent: {}
+[1.403335] (-) TimerEvent: {}
+[1.461030] (uorover_moveit_config) JobEnded: {'identifier': 'uorover_moveit_config', 'rc': 0}
+[1.503453] (-) TimerEvent: {}
+[1.599146] (uorover_ik) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[1.603550] (-) TimerEvent: {}
+[1.607930] (uorover_ik) StdoutLine: {'line': b'-- Found parameter_traits: 0.3.7 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[1.653235] (uorover_ik) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.654338] (uorover_ik) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.679453] (uorover_ik) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.703670] (-) TimerEvent: {}
+[1.803907] (-) TimerEvent: {}
+[1.819634] (uorover_ik) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[1.864100] (uorover_ik) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[1.904027] (-) TimerEvent: {}
+[1.904835] (uorover_ik) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[2.004147] (-) TimerEvent: {}
+[2.055338] (uorover_ik) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.104247] (-) TimerEvent: {}
+[2.204477] (-) TimerEvent: {}
+[2.304754] (-) TimerEvent: {}
+[2.405029] (-) TimerEvent: {}
+[2.505306] (-) TimerEvent: {}
+[2.560695] (uorover_ik) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[2.605419] (-) TimerEvent: {}
+[2.705692] (-) TimerEvent: {}
+[2.805962] (-) TimerEvent: {}
+[2.906239] (-) TimerEvent: {}
+[3.006522] (-) TimerEvent: {}
+[3.095734] (uorover_ik) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options \n'}
+[3.106618] (-) TimerEvent: {}
+[3.206857] (-) TimerEvent: {}
+[3.307135] (-) TimerEvent: {}
+[3.347888] (uorover_ik) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread \n'}
+[3.407232] (-) TimerEvent: {}
+[3.507455] (-) TimerEvent: {}
+[3.607741] (-) TimerEvent: {}
+[3.708008] (-) TimerEvent: {}
+[3.776352] (uorover_ik) StdoutLine: {'line': b'-- Found control_msgs: 4.4.0 (/opt/ros/humble/share/control_msgs/cmake)\n'}
+[3.808104] (-) TimerEvent: {}
+[3.908338] (-) TimerEvent: {}
+[3.980330] (uorover_ik) StdoutLine: {'line': b'-- Found general_interfaces: 0.1.0 (/home/luka/rover_workspace/install/general_interfaces/share/general_interfaces/cmake)\n'}
+[3.994593] (uorover_ik) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.008438] (-) TimerEvent: {}
+[4.052426] (uorover_ik) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.052623] (uorover_ik) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/luka/ws_moveit2/src/uorover_ik/include>\n'}
+[4.052680] (uorover_ik) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.052952] (uorover_ik) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.053368] (uorover_ik) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.053644] (uorover_ik) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[4.054372] (uorover_ik) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.054447] (uorover_ik) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.054675] (uorover_ik) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.055644] (uorover_ik) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.105776] (uorover_ik) StdoutLine: {'line': b'-- Generating done\n'}
+[4.107860] (uorover_ik) StdoutLine: {'line': b'-- Build files have been written to: /home/luka/ws_moveit2/build/uorover_ik\n'}
+[4.108536] (-) TimerEvent: {}
+[4.133613] (uorover_ik) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ik_hardware_interface\x1b[0m\n'}
+[4.134088] (uorover_ik) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target uorover_ik\x1b[0m\n'}
+[4.150446] (uorover_ik) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o\x1b[0m\n'}
+[4.157612] (uorover_ik) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/uorover_ik.dir/src/uorover_ik.cpp.o\x1b[0m\n'}
+[4.208666] (-) TimerEvent: {}
+[4.308909] (-) TimerEvent: {}
+[4.409158] (-) TimerEvent: {}
+[4.509416] (-) TimerEvent: {}
+[4.609682] (-) TimerEvent: {}
+[4.709946] (-) TimerEvent: {}
+[4.810209] (-) TimerEvent: {}
+[4.910470] (-) TimerEvent: {}
+[5.010737] (-) TimerEvent: {}
+[5.111056] (-) TimerEvent: {}
+[5.211343] (-) TimerEvent: {}
+[5.311608] (-) TimerEvent: {}
+[5.411881] (-) TimerEvent: {}
+[5.512143] (-) TimerEvent: {}
+[5.612406] (-) TimerEvent: {}
+[5.712659] (-) TimerEvent: {}
+[5.812920] (-) TimerEvent: {}
+[5.913181] (-) TimerEvent: {}
+[6.013451] (-) TimerEvent: {}
+[6.113715] (-) TimerEvent: {}
+[6.213987] (-) TimerEvent: {}
+[6.314247] (-) TimerEvent: {}
+[6.414520] (-) TimerEvent: {}
+[6.514827] (-) TimerEvent: {}
+[6.615093] (-) TimerEvent: {}
+[6.715362] (-) TimerEvent: {}
+[6.815620] (-) TimerEvent: {}
+[6.915907] (-) TimerEvent: {}
+[7.016207] (-) TimerEvent: {}
+[7.116502] (-) TimerEvent: {}
+[7.216778] (-) TimerEvent: {}
+[7.317045] (-) TimerEvent: {}
+[7.417310] (-) TimerEvent: {}
+[7.517578] (-) TimerEvent: {}
+[7.617854] (-) TimerEvent: {}
+[7.718132] (-) TimerEvent: {}
+[7.818374] (-) TimerEvent: {}
+[7.918629] (-) TimerEvent: {}
+[8.018880] (-) TimerEvent: {}
+[8.119134] (-) TimerEvent: {}
+[8.219394] (-) TimerEvent: {}
+[8.319653] (-) TimerEvent: {}
+[8.419910] (-) TimerEvent: {}
+[8.520170] (-) TimerEvent: {}
+[8.620433] (-) TimerEvent: {}
+[8.720691] (-) TimerEvent: {}
+[8.820952] (-) TimerEvent: {}
+[8.921217] (-) TimerEvent: {}
+[9.021474] (-) TimerEvent: {}
+[9.121739] (-) TimerEvent: {}
+[9.221994] (-) TimerEvent: {}
+[9.322256] (-) TimerEvent: {}
+[9.422518] (-) TimerEvent: {}
+[9.522812] (-) TimerEvent: {}
+[9.623085] (-) TimerEvent: {}
+[9.723385] (-) TimerEvent: {}
+[9.823646] (-) TimerEvent: {}
+[9.923917] (-) TimerEvent: {}
+[10.024171] (-) TimerEvent: {}
+[10.124454] (-) TimerEvent: {}
+[10.224741] (-) TimerEvent: {}
+[10.325026] (-) TimerEvent: {}
+[10.381878] (uorover_ik) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable uorover_ik\x1b[0m\n'}
+[10.425149] (-) TimerEvent: {}
+[10.525438] (-) TimerEvent: {}
+[10.565812] (uorover_ik) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ik_hardware_interface\x1b[0m\n'}
+[10.625553] (-) TimerEvent: {}
+[10.725826] (-) TimerEvent: {}
+[10.738898] (uorover_ik) StdoutLine: {'line': b'[100%] Built target uorover_ik\n'}
+[10.825949] (-) TimerEvent: {}
+[10.926204] (-) TimerEvent: {}
+[11.026455] (-) TimerEvent: {}
+[11.126854] (-) TimerEvent: {}
+[11.227140] (-) TimerEvent: {}
+[11.275267] (uorover_ik) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o: in function `std::enable_if<rosidl_generator_traits::is_message<general_interfaces::msg::ReferencePositions_<std::allocator<void> > >::value, rosidl_message_type_support_t const&>::type rclcpp::get_message_type_support_handle<general_interfaces::msg::ReferencePositions_<std::allocator<void> > >()':\n"}
+[11.275406] (uorover_ik) StderrLine: {'line': b"ik_hardware_interface.cpp:(.text._ZN6rclcpp31get_message_type_support_handleIN18general_interfaces3msg19ReferencePositions_ISaIvEEEEENSt9enable_ifIXsrN23rosidl_generator_traits10is_messageIT_EE5valueERK29rosidl_message_type_support_tE4typeEv[_ZN6rclcpp31get_message_type_support_handleIN18general_interfaces3msg19ReferencePositions_ISaIvEEEEENSt9enable_ifIXsrN23rosidl_generator_traits10is_messageIT_EE5valueERK29rosidl_message_type_support_tE4typeEv]+0x10): undefined reference to `rosidl_message_type_support_t const* rosidl_typesupport_cpp::get_message_type_support_handle<general_interfaces::msg::ReferencePositions_<std::allocator<void> > >()'\n"}
+[11.308799] (uorover_ik) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[11.310237] (uorover_ik) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ik_hardware_interface.dir/build.make:371: ik_hardware_interface] Error 1\n'}
+[11.310510] (uorover_ik) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/ik_hardware_interface.dir/all] Error 2\n'}
+[11.310691] (uorover_ik) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[11.312462] (uorover_ik) CommandEnded: {'returncode': 2}
+[11.327211] (-) TimerEvent: {}
+[11.412400] (uorover_ik) JobEnded: {'identifier': 'uorover_ik', 'rc': 2}
+[11.423139] (-) EventReactorShutdown: {}

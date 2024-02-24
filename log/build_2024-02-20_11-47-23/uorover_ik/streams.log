@@ -1,0 +1,30 @@
+[0.715s] Invoking command in '/home/luka/ws_moveit2/build/uorover_ik': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/ws_moveit2/install/uorover_arm:/home/luka/rover_workspace/install/robotic_arm_controls:/home/luka/rover_workspace/install/ld_controls:/home/luka/rover_workspace/install/gps_node:/home/luka/rover_workspace/install/camera_nodes:/home/luka/rover_workspace/install/drive_urdf:/home/luka/rover_workspace/install/drive_controls:/opt/ros/humble /usr/bin/cmake --build /home/luka/ws_moveit2/build/uorover_ik -- -j12 -l12
+[0.782s] [35m[1mConsolidate compiler generated dependencies of target ik_hardware_interface[0m
+[0.812s] [ 75%] [32mBuilding CXX object CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o[0m
+[0.812s] [ 75%] Built target uorover_ik
+[11.038s] [100%] [32m[1mLinking CXX executable ik_hardware_interface[0m
+[12.335s] [100%] Built target ik_hardware_interface
+[12.351s] Invoked command in '/home/luka/ws_moveit2/build/uorover_ik' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/ws_moveit2/install/uorover_arm:/home/luka/rover_workspace/install/robotic_arm_controls:/home/luka/rover_workspace/install/ld_controls:/home/luka/rover_workspace/install/gps_node:/home/luka/rover_workspace/install/camera_nodes:/home/luka/rover_workspace/install/drive_urdf:/home/luka/rover_workspace/install/drive_controls:/opt/ros/humble /usr/bin/cmake --build /home/luka/ws_moveit2/build/uorover_ik -- -j12 -l12
+[12.391s] Invoking command in '/home/luka/ws_moveit2/build/uorover_ik': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/ws_moveit2/install/uorover_arm:/home/luka/rover_workspace/install/robotic_arm_controls:/home/luka/rover_workspace/install/ld_controls:/home/luka/rover_workspace/install/gps_node:/home/luka/rover_workspace/install/camera_nodes:/home/luka/rover_workspace/install/drive_urdf:/home/luka/rover_workspace/install/drive_controls:/opt/ros/humble /usr/bin/cmake --install /home/luka/ws_moveit2/build/uorover_ik
+[12.401s] -- Install configuration: ""
+[12.401s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/lib/uorover_ik/uorover_ik
+[12.402s] -- Installing: /home/luka/ws_moveit2/install/uorover_ik/lib/uorover_ik/ik_hardware_interface
+[12.409s] -- Set runtime path of "/home/luka/ws_moveit2/install/uorover_ik/lib/uorover_ik/ik_hardware_interface" to ""
+[12.409s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/launch
+[12.409s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/launch/ik.launch.py
+[12.409s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/share/ament_index/resource_index/package_run_dependencies/uorover_ik
+[12.409s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/share/ament_index/resource_index/parent_prefix_path/uorover_ik
+[12.409s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/environment/ament_prefix_path.sh
+[12.409s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/environment/ament_prefix_path.dsv
+[12.409s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/environment/path.sh
+[12.409s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/environment/path.dsv
+[12.410s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/local_setup.bash
+[12.410s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/local_setup.sh
+[12.410s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/local_setup.zsh
+[12.410s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/local_setup.dsv
+[12.410s] -- Installing: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/package.dsv
+[12.410s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/share/ament_index/resource_index/packages/uorover_ik
+[12.410s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/cmake/uorover_ikConfig.cmake
+[12.410s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/cmake/uorover_ikConfig-version.cmake
+[12.410s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/package.xml
+[12.411s] Invoked command in '/home/luka/ws_moveit2/build/uorover_ik' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/ws_moveit2/install/uorover_arm:/home/luka/rover_workspace/install/robotic_arm_controls:/home/luka/rover_workspace/install/ld_controls:/home/luka/rover_workspace/install/gps_node:/home/luka/rover_workspace/install/camera_nodes:/home/luka/rover_workspace/install/drive_urdf:/home/luka/rover_workspace/install/drive_controls:/opt/ros/humble /usr/bin/cmake --install /home/luka/ws_moveit2/build/uorover_ik
