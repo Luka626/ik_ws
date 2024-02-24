@@ -14,6 +14,16 @@
 using namespace std::chrono_literals;
 
 //4096 counts
+struct LinearActuator{
+    int id;
+    float lMin;
+    float lMax;
+    float thetaMin;
+    float thetaMax;
+    float slope;
+};
+
+double round(const double num){return floor(num + 0.5);}
 
 class IKHardwareInterface : public rclcpp::Node
 {
@@ -32,10 +42,24 @@ class IKHardwareInterface : public rclcpp::Node
                 "arm_feedback",
                 10,
                 std::bind(&IKHardwareInterface::arm_callback, this, std::placeholders::_1));
-            
+        
         downstream_publisher_  = this->create_publisher<general_interfaces::msg::ArmPose>("goal_states", 10);
-    }
 
+        LA1_.id        = 1;
+        LA1_.lMax      = 0.00;
+        LA1_.lMin      = 6.00;
+        LA1_.thetaMax  = 77.00 * 0.0174533;
+        LA1_.thetaMin  = -4.00 * 0.0174533;
+        LA1_.slope = 1.0 * (LA1_.lMax - LA1_.lMin) / (LA1_.thetaMax - LA1_.thetaMin);
+
+        LA2_.id        = 2;
+        LA2_.lMax      = 0.00;
+        LA2_.lMin      = 6.00;
+        LA2_.thetaMax  = 100.00 * 0.0174533;
+        LA2_.thetaMin  = 0.00 * 0.0175433;
+        LA2_.slope = 1.0 * (LA2_.lMax - LA2_.lMin) / (LA2_.thetaMax - LA2_.thetaMin);
+
+    }
 
     // getters and setters for private reference positions attribute
     std::vector<double> getReferencePositions() const {
@@ -44,6 +68,10 @@ class IKHardwareInterface : public rclcpp::Node
 
     void setReferencePositions(const std::vector<double> &referencePositions){
         referencePositions_ = referencePositions;
+        float tmp = referencePositions_[1];
+        referencePositions_[1] = LA1_.lMin + LA1_.slope * (tmp - LA1_.thetaMin);
+        tmp = referencePositions_[2];
+        referencePositions_[2] = LA2_.lMin + LA2_.slope * (tmp - LA2_.thetaMin);
     } 
 
     std::vector<double> getArmPositions() const {
@@ -58,17 +86,14 @@ class IKHardwareInterface : public rclcpp::Node
     // on controller state topic callback, update reference positions attribute
     void ik_callback(const control_msgs::msg::JointTrajectoryControllerState msg){
         this->setReferencePositions(msg.reference.positions);
+
+        general_interfaces::msg::ArmPose message;;
+        message.positions = this->getReferencePositions();
+        downstream_publisher_->publish(message);
     }
 
     void arm_callback(const general_interfaces::msg::ArmPose msg){
         this->setArmPositions(msg.positions);
-    }
-
-    // publish joint states to arm hardware on a timer
-    void publish(){
-        general_interfaces::msg::ArmPose message;;
-        message.positions = this->getReferencePositions();
-        downstream_publisher_->publish(message);
     }
 
     rclcpp::TimerBase::SharedPtr timer_;
@@ -78,6 +103,8 @@ class IKHardwareInterface : public rclcpp::Node
     rclcpp::Subscription<general_interfaces::msg::ArmPose>::SharedPtr downstream_subscription_;
     std::vector<double> referencePositions_;
     std::vector<double> armPositions_;
+    LinearActuator LA1_;
+    LinearActuator LA2_;
 };
 
 int main(int argc, char * argv[])

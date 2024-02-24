@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/uorover_arm/uorover_arm.egg-info/PKG-INFO
+writing dependency_links to ../../build/uorover_arm/uorover_arm.egg-info/dependency_links.txt
+writing entry points to ../../build/uorover_arm/uorover_arm.egg-info/entry_points.txt
+writing requirements to ../../build/uorover_arm/uorover_arm.egg-info/requires.txt
+writing top-level names to ../../build/uorover_arm/uorover_arm.egg-info/top_level.txt
+reading manifest file '../../build/uorover_arm/uorover_arm.egg-info/SOURCES.txt'
+writing manifest file '../../build/uorover_arm/uorover_arm.egg-info/SOURCES.txt'
+running build
+running build_py
+copying uorover_arm/__init__.py -> /home/luka/ws_moveit2/build/uorover_arm/build/lib/uorover_arm
+running install
+running install_lib
+copying /home/luka/ws_moveit2/build/uorover_arm/build/lib/uorover_arm/__init__.py -> /home/luka/ws_moveit2/install/uorover_arm/lib/python3.10/site-packages/uorover_arm
+byte-compiling /home/luka/ws_moveit2/install/uorover_arm/lib/python3.10/site-packages/uorover_arm/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/uorover_arm -> /home/luka/ws_moveit2/install/uorover_arm/share/ament_index/resource_index/packages
+copying package.xml -> /home/luka/ws_moveit2/install/uorover_arm/share/uorover_arm
+copying launch/launch.py -> /home/luka/ws_moveit2/install/uorover_arm/share/uorover_arm
+copying urdf/crane.urdf -> /home/luka/ws_moveit2/install/uorover_arm/share/uorover_arm/urdf/
+copying meshes/collision/L1.STL -> /home/luka/ws_moveit2/install/uorover_arm/share/uorover_arm/meshes/collision/
+copying meshes/visual/L5.STL -> /home/luka/ws_moveit2/install/uorover_arm/share/uorover_arm/meshes/visual/
+running install_egg_info
+removing '/home/luka/ws_moveit2/install/uorover_arm/lib/python3.10/site-packages/uorover_arm-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/uorover_arm/uorover_arm.egg-info to /home/luka/ws_moveit2/install/uorover_arm/lib/python3.10/site-packages/uorover_arm-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/luka/ws_moveit2/build/uorover_arm/install.log'

@@ -1,0 +1,69 @@
+[0.428s] Invoking command in '/home/luka/ws_moveit2/build/uorover_ik': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luka/ws_moveit2/build/uorover_ik -- -j12 -l12
+[0.505s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.655s] -- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[0.670s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[0.710s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.713s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.721s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.740s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.766s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.794s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.804s] -- Found parameter_traits: 0.3.7 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.866s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.868s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.903s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.066s] -- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.115s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[2.160s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.329s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.912s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[3.514s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[3.786s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[4.258s] -- Found control_msgs: 4.4.0 (/opt/ros/humble/share/control_msgs/cmake)
+[4.497s] -- Found general_interfaces: 0.1.0 (/home/luka/rover_workspace/install/general_interfaces/share/general_interfaces/cmake)
+[4.556s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.626s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.626s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/luka/ws_moveit2/src/uorover_ik/include>
+[4.626s] -- Configured cppcheck exclude dirs and/or files: 
+[4.627s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.628s] -- Added test 'lint_cmake' to check CMake code style
+[4.628s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.629s] -- Added test 'uncrustify' to check C / C++ code style
+[4.629s] -- Configured uncrustify additional arguments: 
+[4.630s] -- Added test 'xmllint' to check XML markup files
+[4.631s] -- Configuring done
+[4.684s] -- Generating done
+[4.686s] -- Build files have been written to: /home/luka/ws_moveit2/build/uorover_ik
+[4.717s] [35m[1mConsolidate compiler generated dependencies of target ik_hardware_interface[0m
+[4.717s] [35m[1mConsolidate compiler generated dependencies of target uorover_ik[0m
+[4.735s] [ 25%] [32mBuilding CXX object CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o[0m
+[4.744s] [ 50%] [32mBuilding CXX object CMakeFiles/uorover_ik.dir/src/uorover_ik.cpp.o[0m
+[12.309s] [ 75%] [32m[1mLinking CXX executable uorover_ik[0m
+[12.720s] [ 75%] Built target uorover_ik
+[14.660s] [100%] [32m[1mLinking CXX executable ik_hardware_interface[0m
+[15.698s] [100%] Built target ik_hardware_interface
+[15.710s] Invoked command in '/home/luka/ws_moveit2/build/uorover_ik' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luka/ws_moveit2/build/uorover_ik -- -j12 -l12
+[15.738s] Invoking command in '/home/luka/ws_moveit2/build/uorover_ik': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/luka/ws_moveit2/build/uorover_ik
+[15.747s] -- Install configuration: ""
+[15.747s] -- Installing: /home/luka/ws_moveit2/install/uorover_ik/lib/uorover_ik/uorover_ik
+[15.748s] -- Set runtime path of "/home/luka/ws_moveit2/install/uorover_ik/lib/uorover_ik/uorover_ik" to ""
+[15.748s] -- Installing: /home/luka/ws_moveit2/install/uorover_ik/lib/uorover_ik/ik_hardware_interface
+[15.754s] -- Set runtime path of "/home/luka/ws_moveit2/install/uorover_ik/lib/uorover_ik/ik_hardware_interface" to ""
+[15.754s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/launch
+[15.754s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/launch/ik.launch.py
+[15.755s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/share/ament_index/resource_index/package_run_dependencies/uorover_ik
+[15.755s] -- Installing: /home/luka/ws_moveit2/install/uorover_ik/share/ament_index/resource_index/parent_prefix_path/uorover_ik
+[15.755s] -- Installing: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/environment/ament_prefix_path.sh
+[15.755s] -- Installing: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/environment/ament_prefix_path.dsv
+[15.755s] -- Installing: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/environment/path.sh
+[15.755s] -- Installing: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/environment/path.dsv
+[15.755s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/local_setup.bash
+[15.755s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/local_setup.sh
+[15.755s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/local_setup.zsh
+[15.755s] -- Installing: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/local_setup.dsv
+[15.755s] -- Installing: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/package.dsv
+[15.755s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/share/ament_index/resource_index/packages/uorover_ik
+[15.756s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/cmake/uorover_ikConfig.cmake
+[15.756s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/cmake/uorover_ikConfig-version.cmake
+[15.756s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/package.xml
+[15.757s] Invoked command in '/home/luka/ws_moveit2/build/uorover_ik' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/luka/ws_moveit2/build/uorover_ik
