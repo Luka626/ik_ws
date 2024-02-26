@@ -1,0 +1,21 @@
+[0.864s] Invoking command in '/home/luka/ws_moveit2/src/uorover_arm': PYTHONPATH=/home/luka/ws_moveit2/build/uorover_arm/prefix_override:/home/luka/ws_moveit2/install/uorover_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/uorover_arm build --build-base /home/luka/ws_moveit2/build/uorover_arm/build install --record /home/luka/ws_moveit2/build/uorover_arm/install.log --single-version-externally-managed
+[1.123s] running egg_info
+[1.123s] writing ../../build/uorover_arm/uorover_arm.egg-info/PKG-INFO
+[1.123s] writing dependency_links to ../../build/uorover_arm/uorover_arm.egg-info/dependency_links.txt
+[1.124s] writing entry points to ../../build/uorover_arm/uorover_arm.egg-info/entry_points.txt
+[1.124s] writing requirements to ../../build/uorover_arm/uorover_arm.egg-info/requires.txt
+[1.124s] writing top-level names to ../../build/uorover_arm/uorover_arm.egg-info/top_level.txt
+[1.125s] reading manifest file '../../build/uorover_arm/uorover_arm.egg-info/SOURCES.txt'
+[1.126s] writing manifest file '../../build/uorover_arm/uorover_arm.egg-info/SOURCES.txt'
+[1.126s] running build
+[1.126s] running build_py
+[1.126s] running install
+[1.126s] running install_lib
+[1.127s] running install_data
+[1.128s] copying urdf/crane.urdf -> /home/luka/ws_moveit2/install/uorover_arm/share/uorover_arm/urdf/
+[1.128s] running install_egg_info
+[1.129s] removing '/home/luka/ws_moveit2/install/uorover_arm/lib/python3.10/site-packages/uorover_arm-0.0.0-py3.10.egg-info' (and everything under it)
+[1.130s] Copying ../../build/uorover_arm/uorover_arm.egg-info to /home/luka/ws_moveit2/install/uorover_arm/lib/python3.10/site-packages/uorover_arm-0.0.0-py3.10.egg-info
+[1.130s] running install_scripts
+[1.147s] writing list of installed files to '/home/luka/ws_moveit2/build/uorover_arm/install.log'
+[1.164s] Invoked command in '/home/luka/ws_moveit2/src/uorover_arm' returned '0': PYTHONPATH=/home/luka/ws_moveit2/build/uorover_arm/prefix_override:/home/luka/ws_moveit2/install/uorover_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/uorover_arm build --build-base /home/luka/ws_moveit2/build/uorover_arm/build install --record /home/luka/ws_moveit2/build/uorover_arm/install.log --single-version-externally-managed

@@ -1,0 +1,13 @@
+[35m[1mConsolidate compiler generated dependencies of target ik_hardware_interface[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o[0m
+[ 75%] Built target uorover_ik
+[01m[K/home/luka/ws_moveit2/src/uorover_ik/src/ik_hardware_interface.cpp:[m[K In member function ‘[01m[Kvoid IKHardwareInterface::arm_callback(const ArmPose&)[m[K’:
+[01m[K/home/luka/ws_moveit2/src/uorover_ik/src/ik_hardware_interface.cpp:135:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid message[m[K’ has incomplete type
+  135 |         auto [01;31m[Kmessage[m[K =
+      |              [01;31m[K^~~~~~~[m[K
+[01m[K/home/luka/ws_moveit2/src/uorover_ik/src/ik_hardware_interface.cpp:138:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K}[m[K’ token
+  138 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/ik_hardware_interface.dir/build.make:76: CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/ik_hardware_interface.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

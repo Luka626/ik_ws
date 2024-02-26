@@ -1,0 +1,8 @@
+[01m[K/home/luka/ws_moveit2/src/uorover_ik/src/ik_hardware_interface.cpp:[m[K In member function ‘[01m[Kvoid IKHardwareInterface::arm_callback(const ArmPose&)[m[K’:
+[01m[K/home/luka/ws_moveit2/src/uorover_ik/src/ik_hardware_interface.cpp:137:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K}[m[K’ token
+  137 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/luka/ws_moveit2/src/uorover_ik/src/ik_hardware_interface.cpp:137:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+gmake[2]: *** [CMakeFiles/ik_hardware_interface.dir/build.make:76: CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/ik_hardware_interface.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
