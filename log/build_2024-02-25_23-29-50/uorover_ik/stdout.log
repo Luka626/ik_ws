@@ -1,0 +1,3 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o[0m
+[ 75%] Built target uorover_ik
+[100%] [32m[1mLinking CXX executable ik_hardware_interface[0m

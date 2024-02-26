@@ -1,0 +1,233 @@
+[3.113s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[3.113s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7ff06efd76d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ff06efe52d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ff06efe52d0>>, mixin_verb=('build',))
+[3.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.187s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/luka/ws_moveit2'
+[3.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.201s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.201s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.201s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.202s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.202s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.202s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.202s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.202s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.202s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.202s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.202s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.202s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.202s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.202s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/uorover_arm) by extensions ['ignore', 'ignore_ament_install']
+[3.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/uorover_arm) by extension 'ignore'
+[3.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/uorover_arm) by extension 'ignore_ament_install'
+[3.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/uorover_arm) by extensions ['colcon_pkg']
+[3.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/uorover_arm) by extension 'colcon_pkg'
+[3.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/uorover_arm) by extensions ['colcon_meta']
+[3.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/uorover_arm) by extension 'colcon_meta'
+[3.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/uorover_arm) by extensions ['ros']
+[3.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/uorover_arm) by extension 'ros'
+[3.206s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uorover_arm' with type 'ros.ament_python' and name 'uorover_arm'
+[3.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/uorover_ik) by extensions ['ignore', 'ignore_ament_install']
+[3.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/uorover_ik) by extension 'ignore'
+[3.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/uorover_ik) by extension 'ignore_ament_install'
+[3.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/uorover_ik) by extensions ['colcon_pkg']
+[3.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/uorover_ik) by extension 'colcon_pkg'
+[3.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/uorover_ik) by extensions ['colcon_meta']
+[3.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/uorover_ik) by extension 'colcon_meta'
+[3.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/uorover_ik) by extensions ['ros']
+[3.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/uorover_ik) by extension 'ros'
+[3.208s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uorover_ik' with type 'ros.ament_cmake' and name 'uorover_ik'
+[3.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/uorover_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[3.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/uorover_moveit_config) by extension 'ignore'
+[3.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/uorover_moveit_config) by extension 'ignore_ament_install'
+[3.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/uorover_moveit_config) by extensions ['colcon_pkg']
+[3.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/uorover_moveit_config) by extension 'colcon_pkg'
+[3.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/uorover_moveit_config) by extensions ['colcon_meta']
+[3.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/uorover_moveit_config) by extension 'colcon_meta'
+[3.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/uorover_moveit_config) by extensions ['ros']
+[3.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/uorover_moveit_config) by extension 'ros'
+[3.209s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uorover_moveit_config' with type 'ros.ament_cmake' and name 'uorover_moveit_config'
+[3.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.387s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.387s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.446s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 9 installed packages in /home/luka/rover_workspace/install
+[3.489s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 407 installed packages in /opt/ros/humble
+[3.492s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.667s] Level 5:colcon.colcon_core.verb:set package 'uorover_arm' build argument 'cmake_args' from command line to 'None'
+[3.667s] Level 5:colcon.colcon_core.verb:set package 'uorover_arm' build argument 'cmake_target' from command line to 'None'
+[3.669s] Level 5:colcon.colcon_core.verb:set package 'uorover_arm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.669s] Level 5:colcon.colcon_core.verb:set package 'uorover_arm' build argument 'cmake_clean_cache' from command line to 'False'
+[3.669s] Level 5:colcon.colcon_core.verb:set package 'uorover_arm' build argument 'cmake_clean_first' from command line to 'False'
+[3.669s] Level 5:colcon.colcon_core.verb:set package 'uorover_arm' build argument 'cmake_force_configure' from command line to 'False'
+[3.669s] Level 5:colcon.colcon_core.verb:set package 'uorover_arm' build argument 'ament_cmake_args' from command line to 'None'
+[3.669s] Level 5:colcon.colcon_core.verb:set package 'uorover_arm' build argument 'catkin_cmake_args' from command line to 'None'
+[3.669s] Level 5:colcon.colcon_core.verb:set package 'uorover_arm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.669s] DEBUG:colcon.colcon_core.verb:Building package 'uorover_arm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/luka/ws_moveit2/build/uorover_arm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/luka/ws_moveit2/install/uorover_arm', 'merge_install': False, 'path': '/home/luka/ws_moveit2/src/uorover_arm', 'symlink_install': False, 'test_result_base': None}
+[3.696s] Level 5:colcon.colcon_core.verb:set package 'uorover_ik' build argument 'cmake_args' from command line to 'None'
+[3.696s] Level 5:colcon.colcon_core.verb:set package 'uorover_ik' build argument 'cmake_target' from command line to 'None'
+[3.696s] Level 5:colcon.colcon_core.verb:set package 'uorover_ik' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.696s] Level 5:colcon.colcon_core.verb:set package 'uorover_ik' build argument 'cmake_clean_cache' from command line to 'False'
+[3.696s] Level 5:colcon.colcon_core.verb:set package 'uorover_ik' build argument 'cmake_clean_first' from command line to 'False'
+[3.696s] Level 5:colcon.colcon_core.verb:set package 'uorover_ik' build argument 'cmake_force_configure' from command line to 'False'
+[3.696s] Level 5:colcon.colcon_core.verb:set package 'uorover_ik' build argument 'ament_cmake_args' from command line to 'None'
+[3.696s] Level 5:colcon.colcon_core.verb:set package 'uorover_ik' build argument 'catkin_cmake_args' from command line to 'None'
+[3.696s] Level 5:colcon.colcon_core.verb:set package 'uorover_ik' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.696s] DEBUG:colcon.colcon_core.verb:Building package 'uorover_ik' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/luka/ws_moveit2/build/uorover_ik', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/luka/ws_moveit2/install/uorover_ik', 'merge_install': False, 'path': '/home/luka/ws_moveit2/src/uorover_ik', 'symlink_install': False, 'test_result_base': None}
+[3.722s] Level 5:colcon.colcon_core.verb:set package 'uorover_moveit_config' build argument 'cmake_args' from command line to 'None'
+[3.722s] Level 5:colcon.colcon_core.verb:set package 'uorover_moveit_config' build argument 'cmake_target' from command line to 'None'
+[3.722s] Level 5:colcon.colcon_core.verb:set package 'uorover_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.722s] Level 5:colcon.colcon_core.verb:set package 'uorover_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[3.722s] Level 5:colcon.colcon_core.verb:set package 'uorover_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[3.722s] Level 5:colcon.colcon_core.verb:set package 'uorover_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[3.722s] Level 5:colcon.colcon_core.verb:set package 'uorover_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[3.722s] Level 5:colcon.colcon_core.verb:set package 'uorover_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[3.722s] Level 5:colcon.colcon_core.verb:set package 'uorover_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.722s] DEBUG:colcon.colcon_core.verb:Building package 'uorover_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/luka/ws_moveit2/build/uorover_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/luka/ws_moveit2/install/uorover_moveit_config', 'merge_install': False, 'path': '/home/luka/ws_moveit2/src/uorover_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[3.751s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.795s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.796s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/luka/ws_moveit2/src/uorover_arm' with build type 'ament_python'
+[3.796s] Level 1:colcon.colcon_core.shell:create_environment_hook('uorover_arm', 'ament_prefix_path')
+[3.845s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luka/ws_moveit2/install/uorover_arm/share/uorover_arm/hook/ament_prefix_path.ps1'
+[3.847s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luka/ws_moveit2/install/uorover_arm/share/uorover_arm/hook/ament_prefix_path.dsv'
+[3.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luka/ws_moveit2/install/uorover_arm/share/uorover_arm/hook/ament_prefix_path.sh'
+[3.893s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.893s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.056s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/luka/ws_moveit2/src/uorover_ik' with build type 'ament_cmake'
+[4.057s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/luka/ws_moveit2/src/uorover_ik'
+[4.146s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.146s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.009s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/luka/ws_moveit2/src/uorover_arm'
+[5.048s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.049s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.313s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luka/ws_moveit2/build/uorover_ik': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/rover_workspace/install/robotic_arm_controls:/home/luka/rover_workspace/install/ld_controls:/home/luka/rover_workspace/install/gps_node:/home/luka/rover_workspace/install/camera_nodes:/home/luka/rover_workspace/install/drive_urdf:/home/luka/rover_workspace/install/drive_controls:/home/luka/rover_workspace/install/autonomous_navigation:/opt/ros/humble /usr/bin/cmake --build /home/luka/ws_moveit2/build/uorover_ik -- -j12 -l12
+[6.564s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luka/ws_moveit2/src/uorover_arm': PYTHONPATH=/home/luka/ws_moveit2/build/uorover_arm/prefix_override:/home/luka/ws_moveit2/install/uorover_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/uorover_arm build --build-base /home/luka/ws_moveit2/build/uorover_arm/build install --record /home/luka/ws_moveit2/build/uorover_arm/install.log --single-version-externally-managed
+[7.446s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luka/ws_moveit2/src/uorover_arm' returned '0': PYTHONPATH=/home/luka/ws_moveit2/build/uorover_arm/prefix_override:/home/luka/ws_moveit2/install/uorover_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/uorover_arm build --build-base /home/luka/ws_moveit2/build/uorover_arm/build install --record /home/luka/ws_moveit2/build/uorover_arm/install.log --single-version-externally-managed
+[7.522s] Level 1:colcon.colcon_core.environment:checking '/home/luka/ws_moveit2/install/uorover_arm' for CMake module files
+[7.523s] Level 1:colcon.colcon_core.environment:checking '/home/luka/ws_moveit2/install/uorover_arm' for CMake config files
+[7.525s] Level 1:colcon.colcon_core.environment:checking '/home/luka/ws_moveit2/install/uorover_arm/lib'
+[7.525s] Level 1:colcon.colcon_core.environment:checking '/home/luka/ws_moveit2/install/uorover_arm/bin'
+[7.525s] Level 1:colcon.colcon_core.environment:checking '/home/luka/ws_moveit2/install/uorover_arm/lib/pkgconfig/uorover_arm.pc'
+[7.526s] Level 1:colcon.colcon_core.environment:checking '/home/luka/ws_moveit2/install/uorover_arm/lib/python3.10/site-packages'
+[7.526s] Level 1:colcon.colcon_core.shell:create_environment_hook('uorover_arm', 'pythonpath')
+[7.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luka/ws_moveit2/install/uorover_arm/share/uorover_arm/hook/pythonpath.ps1'
+[7.597s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luka/ws_moveit2/install/uorover_arm/share/uorover_arm/hook/pythonpath.dsv'
+[7.597s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luka/ws_moveit2/install/uorover_arm/share/uorover_arm/hook/pythonpath.sh'
+[7.598s] Level 1:colcon.colcon_core.environment:checking '/home/luka/ws_moveit2/install/uorover_arm/bin'
+[7.599s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uorover_arm)
+[7.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/luka/ws_moveit2/install/uorover_arm/share/uorover_arm/package.ps1'
+[7.653s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luka/ws_moveit2/install/uorover_arm/share/uorover_arm/package.dsv'
+[7.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/luka/ws_moveit2/install/uorover_arm/share/uorover_arm/package.sh'
+[7.657s] INFO:colcon.colcon_core.shell:Creating package script '/home/luka/ws_moveit2/install/uorover_arm/share/uorover_arm/package.bash'
+[7.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/luka/ws_moveit2/install/uorover_arm/share/uorover_arm/package.zsh'
+[7.660s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luka/ws_moveit2/install/uorover_arm/share/colcon-core/packages/uorover_arm)
+[7.661s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/luka/ws_moveit2/src/uorover_moveit_config' with build type 'ament_cmake'
+[7.661s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/luka/ws_moveit2/src/uorover_moveit_config'
+[7.749s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.750s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.964s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luka/ws_moveit2/build/uorover_moveit_config': AMENT_PREFIX_PATH=/home/luka/ws_moveit2/install/uorover_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/rover_workspace/install/robotic_arm_controls:/home/luka/rover_workspace/install/ld_controls:/home/luka/rover_workspace/install/gps_node:/home/luka/rover_workspace/install/camera_nodes:/home/luka/rover_workspace/install/drive_urdf:/home/luka/rover_workspace/install/drive_controls:/home/luka/rover_workspace/install/autonomous_navigation:/opt/ros/humble PYTHONPATH=/home/luka/ws_moveit2/install/uorover_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/luka/ws_moveit2/build/uorover_moveit_config -- -j12 -l12
+[8.036s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luka/ws_moveit2/build/uorover_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/luka/ws_moveit2/install/uorover_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/rover_workspace/install/robotic_arm_controls:/home/luka/rover_workspace/install/ld_controls:/home/luka/rover_workspace/install/gps_node:/home/luka/rover_workspace/install/camera_nodes:/home/luka/rover_workspace/install/drive_urdf:/home/luka/rover_workspace/install/drive_controls:/home/luka/rover_workspace/install/autonomous_navigation:/opt/ros/humble PYTHONPATH=/home/luka/ws_moveit2/install/uorover_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/luka/ws_moveit2/build/uorover_moveit_config -- -j12 -l12
+[8.110s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luka/ws_moveit2/build/uorover_moveit_config': AMENT_PREFIX_PATH=/home/luka/ws_moveit2/install/uorover_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/rover_workspace/install/robotic_arm_controls:/home/luka/rover_workspace/install/ld_controls:/home/luka/rover_workspace/install/gps_node:/home/luka/rover_workspace/install/camera_nodes:/home/luka/rover_workspace/install/drive_urdf:/home/luka/rover_workspace/install/drive_controls:/home/luka/rover_workspace/install/autonomous_navigation:/opt/ros/humble PYTHONPATH=/home/luka/ws_moveit2/install/uorover_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/luka/ws_moveit2/build/uorover_moveit_config
+[8.135s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uorover_moveit_config)
+[8.148s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luka/ws_moveit2/build/uorover_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/luka/ws_moveit2/install/uorover_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/rover_workspace/install/robotic_arm_controls:/home/luka/rover_workspace/install/ld_controls:/home/luka/rover_workspace/install/gps_node:/home/luka/rover_workspace/install/camera_nodes:/home/luka/rover_workspace/install/drive_urdf:/home/luka/rover_workspace/install/drive_controls:/home/luka/rover_workspace/install/autonomous_navigation:/opt/ros/humble PYTHONPATH=/home/luka/ws_moveit2/install/uorover_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/luka/ws_moveit2/build/uorover_moveit_config
+[8.210s] Level 1:colcon.colcon_core.environment:checking '/home/luka/ws_moveit2/install/uorover_moveit_config' for CMake module files
+[8.211s] Level 1:colcon.colcon_core.environment:checking '/home/luka/ws_moveit2/install/uorover_moveit_config' for CMake config files
+[8.212s] Level 1:colcon.colcon_core.shell:create_environment_hook('uorover_moveit_config', 'cmake_prefix_path')
+[8.274s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luka/ws_moveit2/install/uorover_moveit_config/share/uorover_moveit_config/hook/cmake_prefix_path.ps1'
+[8.275s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luka/ws_moveit2/install/uorover_moveit_config/share/uorover_moveit_config/hook/cmake_prefix_path.dsv'
+[8.276s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luka/ws_moveit2/install/uorover_moveit_config/share/uorover_moveit_config/hook/cmake_prefix_path.sh'
+[8.277s] Level 1:colcon.colcon_core.environment:checking '/home/luka/ws_moveit2/install/uorover_moveit_config/bin'
+[8.278s] Level 1:colcon.colcon_core.environment:checking '/home/luka/ws_moveit2/install/uorover_moveit_config/lib/pkgconfig/uorover_moveit_config.pc'
+[8.278s] Level 1:colcon.colcon_core.environment:checking '/home/luka/ws_moveit2/install/uorover_moveit_config/lib/python3.10/site-packages'
+[8.279s] Level 1:colcon.colcon_core.environment:checking '/home/luka/ws_moveit2/install/uorover_moveit_config/bin'
+[8.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/luka/ws_moveit2/install/uorover_moveit_config/share/uorover_moveit_config/package.ps1'
+[8.350s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luka/ws_moveit2/install/uorover_moveit_config/share/uorover_moveit_config/package.dsv'
+[8.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/luka/ws_moveit2/install/uorover_moveit_config/share/uorover_moveit_config/package.sh'
+[8.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/luka/ws_moveit2/install/uorover_moveit_config/share/uorover_moveit_config/package.bash'
+[8.354s] INFO:colcon.colcon_core.shell:Creating package script '/home/luka/ws_moveit2/install/uorover_moveit_config/share/uorover_moveit_config/package.zsh'
+[8.354s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luka/ws_moveit2/install/uorover_moveit_config/share/colcon-core/packages/uorover_moveit_config)
+[8.470s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uorover_moveit_config)
+[8.529s] Level 1:colcon.colcon_core.environment:checking '/home/luka/ws_moveit2/install/uorover_moveit_config' for CMake module files
+[8.530s] Level 1:colcon.colcon_core.environment:checking '/home/luka/ws_moveit2/install/uorover_moveit_config' for CMake config files
+[8.531s] Level 1:colcon.colcon_core.shell:create_environment_hook('uorover_moveit_config', 'cmake_prefix_path')
+[8.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luka/ws_moveit2/install/uorover_moveit_config/share/uorover_moveit_config/hook/cmake_prefix_path.ps1'
+[8.591s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luka/ws_moveit2/install/uorover_moveit_config/share/uorover_moveit_config/hook/cmake_prefix_path.dsv'
+[8.592s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luka/ws_moveit2/install/uorover_moveit_config/share/uorover_moveit_config/hook/cmake_prefix_path.sh'
+[8.593s] Level 1:colcon.colcon_core.environment:checking '/home/luka/ws_moveit2/install/uorover_moveit_config/bin'
+[8.594s] Level 1:colcon.colcon_core.environment:checking '/home/luka/ws_moveit2/install/uorover_moveit_config/lib/pkgconfig/uorover_moveit_config.pc'
+[8.594s] Level 1:colcon.colcon_core.environment:checking '/home/luka/ws_moveit2/install/uorover_moveit_config/lib/python3.10/site-packages'
+[8.595s] Level 1:colcon.colcon_core.environment:checking '/home/luka/ws_moveit2/install/uorover_moveit_config/bin'
+[8.654s] INFO:colcon.colcon_core.shell:Creating package script '/home/luka/ws_moveit2/install/uorover_moveit_config/share/uorover_moveit_config/package.ps1'
+[8.655s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luka/ws_moveit2/install/uorover_moveit_config/share/uorover_moveit_config/package.dsv'
+[8.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/luka/ws_moveit2/install/uorover_moveit_config/share/uorover_moveit_config/package.sh'
+[8.657s] INFO:colcon.colcon_core.shell:Creating package script '/home/luka/ws_moveit2/install/uorover_moveit_config/share/uorover_moveit_config/package.bash'
+[8.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/luka/ws_moveit2/install/uorover_moveit_config/share/uorover_moveit_config/package.zsh'
+[8.659s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luka/ws_moveit2/install/uorover_moveit_config/share/colcon-core/packages/uorover_moveit_config)
+[25.826s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luka/ws_moveit2/build/uorover_ik' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/rover_workspace/install/robotic_arm_controls:/home/luka/rover_workspace/install/ld_controls:/home/luka/rover_workspace/install/gps_node:/home/luka/rover_workspace/install/camera_nodes:/home/luka/rover_workspace/install/drive_urdf:/home/luka/rover_workspace/install/drive_controls:/home/luka/rover_workspace/install/autonomous_navigation:/opt/ros/humble /usr/bin/cmake --build /home/luka/ws_moveit2/build/uorover_ik -- -j12 -l12
+[25.978s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uorover_ik)
+[26.055s] Level 1:colcon.colcon_core.environment:checking '/home/luka/ws_moveit2/install/uorover_ik' for CMake module files
+[26.056s] Level 1:colcon.colcon_core.environment:checking '/home/luka/ws_moveit2/install/uorover_ik' for CMake config files
+[26.057s] Level 1:colcon.colcon_core.shell:create_environment_hook('uorover_ik', 'cmake_prefix_path')
+[26.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/hook/cmake_prefix_path.ps1'
+[26.135s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/hook/cmake_prefix_path.dsv'
+[26.136s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/hook/cmake_prefix_path.sh'
+[26.137s] Level 1:colcon.colcon_core.environment:checking '/home/luka/ws_moveit2/install/uorover_ik/lib'
+[26.138s] Level 1:colcon.colcon_core.environment:checking '/home/luka/ws_moveit2/install/uorover_ik/bin'
+[26.138s] Level 1:colcon.colcon_core.environment:checking '/home/luka/ws_moveit2/install/uorover_ik/lib/pkgconfig/uorover_ik.pc'
+[26.139s] Level 1:colcon.colcon_core.environment:checking '/home/luka/ws_moveit2/install/uorover_ik/lib/python3.10/site-packages'
+[26.139s] Level 1:colcon.colcon_core.environment:checking '/home/luka/ws_moveit2/install/uorover_ik/bin'
+[26.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/package.ps1'
+[26.188s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/package.dsv'
+[26.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/package.sh'
+[26.189s] INFO:colcon.colcon_core.shell:Creating package script '/home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/package.bash'
+[26.189s] INFO:colcon.colcon_core.shell:Creating package script '/home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/package.zsh'
+[26.190s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luka/ws_moveit2/install/uorover_ik/share/colcon-core/packages/uorover_ik)
+[26.200s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[26.201s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[26.201s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[26.201s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[26.243s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[26.243s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[26.243s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[26.268s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[26.351s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/luka/ws_moveit2/install/local_setup.ps1'
+[26.354s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/luka/ws_moveit2/install/_local_setup_util_ps1.py'
+[26.358s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/luka/ws_moveit2/install/setup.ps1'
+[26.438s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/luka/ws_moveit2/install/local_setup.sh'
+[26.439s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/luka/ws_moveit2/install/_local_setup_util_sh.py'
+[26.441s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/luka/ws_moveit2/install/setup.sh'
+[26.502s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/luka/ws_moveit2/install/local_setup.bash'
+[26.503s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/luka/ws_moveit2/install/setup.bash'
+[26.539s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/luka/ws_moveit2/install/local_setup.zsh'
+[26.540s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/luka/ws_moveit2/install/setup.zsh'

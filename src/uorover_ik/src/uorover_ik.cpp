@@ -32,7 +32,7 @@ int main(int argc, char * argv[])
       msg.orientation.z = 1e-6;
       msg.position.x = 0.400;
       msg.position.y = -0.100;
-      msg.position.z = 0.100;
+      msg.position.z = 0.400;
       return msg;
   }();
   move_group_interface.setJointValueTarget(target_pose);

@@ -1,1 +1,1 @@
-moveit_ros_planning_interface;rclcpp;std_msgs;ament_lint_auto;ament_lint_common
+moveit_ros_planning_interface;rclcpp;std_msgs;general_interfaces;ament_lint_auto;ament_lint_common
