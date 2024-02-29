@@ -1,0 +1,3 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/rmm_hardware.dir/hardware/rmm_hardware.cpp.o[0m
+[ 50%] Built target ik_hardware_interface
+[ 83%] Built target uorover_ik

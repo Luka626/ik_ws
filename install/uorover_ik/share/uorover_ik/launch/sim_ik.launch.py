@@ -20,12 +20,5 @@ def generate_launch_description():
     )
     launch_description.add_action(ik_launch)
 
-    hardware_interface = Node(
-            name="ik_hardware_interface",
-            package="uorover_ik",
-            executable="ik_hardware_interface",
-            output="screen"
-    )
-    #launch_description.add_action(hardware_interface)
 
     return launch_description

@@ -1,0 +1,43 @@
+[0.107s] Invoking command in '/home/luka/ws_moveit2/build/uorover_ik': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/rover_workspace/install/robotic_arm_controls:/home/luka/rover_workspace/install/ld_controls:/home/luka/rover_workspace/install/gps_node:/home/luka/rover_workspace/install/camera_nodes:/home/luka/rover_workspace/install/drive_urdf:/home/luka/rover_workspace/install/drive_controls:/home/luka/rover_workspace/install/autonomous_navigation:/home/luka/ws_moveit2/install/uorover_arm:/opt/ros/humble /usr/bin/cmake --build /home/luka/ws_moveit2/build/uorover_ik -- -j12 -l12
+[0.156s] [35m[1mConsolidate compiler generated dependencies of target rmm_hardware[0m
+[0.169s] [ 33%] Built target ik_hardware_interface
+[0.173s] [ 50%] [32mBuilding CXX object CMakeFiles/rmm_hardware.dir/hardware/rmm_hardware.cpp.o[0m
+[0.173s] [ 83%] Built target uorover_ik
+[7.237s] [100%] [32m[1mLinking CXX shared library librmm_hardware.so[0m
+[7.647s] [100%] Built target rmm_hardware
+[7.661s] Invoked command in '/home/luka/ws_moveit2/build/uorover_ik' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/rover_workspace/install/robotic_arm_controls:/home/luka/rover_workspace/install/ld_controls:/home/luka/rover_workspace/install/gps_node:/home/luka/rover_workspace/install/camera_nodes:/home/luka/rover_workspace/install/drive_urdf:/home/luka/rover_workspace/install/drive_controls:/home/luka/rover_workspace/install/autonomous_navigation:/home/luka/ws_moveit2/install/uorover_arm:/opt/ros/humble /usr/bin/cmake --build /home/luka/ws_moveit2/build/uorover_ik -- -j12 -l12
+[7.707s] Invoking command in '/home/luka/ws_moveit2/build/uorover_ik': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/rover_workspace/install/robotic_arm_controls:/home/luka/rover_workspace/install/ld_controls:/home/luka/rover_workspace/install/gps_node:/home/luka/rover_workspace/install/camera_nodes:/home/luka/rover_workspace/install/drive_urdf:/home/luka/rover_workspace/install/drive_controls:/home/luka/rover_workspace/install/autonomous_navigation:/home/luka/ws_moveit2/install/uorover_arm:/opt/ros/humble /usr/bin/cmake --install /home/luka/ws_moveit2/build/uorover_ik
+[7.716s] -- Install configuration: ""
+[7.716s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/rmm_hardware.xml
+[7.716s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/lib/uorover_ik/uorover_ik
+[7.717s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/lib/uorover_ik/ik_hardware_interface
+[7.717s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/launch
+[7.717s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/launch/sim_ik.launch.py
+[7.717s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/launch/ik.launch.py
+[7.717s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/include/rmm_hardware
+[7.717s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/include/rmm_hardware/uorover_ik
+[7.717s] -- Installing: /home/luka/ws_moveit2/install/uorover_ik/include/rmm_hardware/uorover_ik/rmm_hardware.hpp
+[7.717s] -- Installing: /home/luka/ws_moveit2/install/uorover_ik/lib/librmm_hardware.so
+[7.726s] -- Set runtime path of "/home/luka/ws_moveit2/install/uorover_ik/lib/librmm_hardware.so" to ""
+[7.726s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/environment/library_path.sh
+[7.726s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/environment/library_path.dsv
+[7.726s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/share/ament_index/resource_index/package_run_dependencies/uorover_ik
+[7.726s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/share/ament_index/resource_index/parent_prefix_path/uorover_ik
+[7.726s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/environment/ament_prefix_path.sh
+[7.726s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/environment/ament_prefix_path.dsv
+[7.726s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/environment/path.sh
+[7.727s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/environment/path.dsv
+[7.727s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/local_setup.bash
+[7.727s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/local_setup.sh
+[7.727s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/local_setup.zsh
+[7.727s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/local_setup.dsv
+[7.727s] -- Installing: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/package.dsv
+[7.727s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/share/ament_index/resource_index/packages/uorover_ik
+[7.727s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/share/ament_index/resource_index/rmm_hardware__pluginlib__plugin/uorover_ik
+[7.727s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/cmake/rmm_hardwareExport.cmake
+[7.727s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/cmake/rmm_hardwareExport-noconfig.cmake
+[7.727s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/cmake/ament_cmake_export_targets-extras.cmake
+[7.727s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/cmake/uorover_ikConfig.cmake
+[7.727s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/cmake/uorover_ikConfig-version.cmake
+[7.727s] -- Up-to-date: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/package.xml
+[7.729s] Invoked command in '/home/luka/ws_moveit2/build/uorover_ik' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/rover_workspace/install/robotic_arm_controls:/home/luka/rover_workspace/install/ld_controls:/home/luka/rover_workspace/install/gps_node:/home/luka/rover_workspace/install/camera_nodes:/home/luka/rover_workspace/install/drive_urdf:/home/luka/rover_workspace/install/drive_controls:/home/luka/rover_workspace/install/autonomous_navigation:/home/luka/ws_moveit2/install/uorover_arm:/opt/ros/humble /usr/bin/cmake --install /home/luka/ws_moveit2/build/uorover_ik

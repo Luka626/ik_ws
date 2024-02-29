@@ -1,0 +1,9 @@
+<library path="rmm_hardware">
+  <class name="uorover_ik/ArmSystem"
+         type="uorover_ik::ArmSystem"
+         base_class_type="hardware_interface::SystemInterface">
+    <description>
+      Robot hardware plugin for uORover 4-DoF arm.
+    </description>
+  </class>
+</library>

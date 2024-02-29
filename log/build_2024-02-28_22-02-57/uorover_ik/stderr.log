@@ -1,0 +1,8 @@
+In file included from [01m[K/home/luka/ws_moveit2/src/uorover_ik/hardware/rmm_hardware.cpp:1[m[K:
+[01m[K/home/luka/ws_moveit2/src/uorover_ik/hardware/include/uorover_ik/rmm_hardware.hpp:8:93:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+    8 |     class HARDWARE_INTERFACE_PUBLIC ArmSystem : public hardware_interface::SystemInterface{}
+      |                                                                                             [01;31m[K^[m[K
+      |                                                                                             [32m[K;[m[K
+gmake[2]: *** [CMakeFiles/rmm_hardware.dir/build.make:76: CMakeFiles/rmm_hardware.dir/hardware/rmm_hardware.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/rmm_hardware.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

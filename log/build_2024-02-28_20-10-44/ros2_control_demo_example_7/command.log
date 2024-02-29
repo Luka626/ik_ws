@@ -1,4 +1,0 @@
-Invoking command in '/home/luka/ws_moveit2/build/ros2_control_demo_example_7': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luka/ws_moveit2/build/ros2_control_demo_example_7 -- -j12 -l12
-Invoked command in '/home/luka/ws_moveit2/build/ros2_control_demo_example_7' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luka/ws_moveit2/build/ros2_control_demo_example_7 -- -j12 -l12
-Invoking command in '/home/luka/ws_moveit2/build/ros2_control_demo_example_7': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/luka/ws_moveit2/build/ros2_control_demo_example_7
-Invoked command in '/home/luka/ws_moveit2/build/ros2_control_demo_example_7' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/luka/ws_moveit2/build/ros2_control_demo_example_7

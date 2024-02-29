@@ -1,0 +1,14 @@
+[0.511s] Invoking command in '/home/luka/ws_moveit2/build/uorover_ik': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/rover_workspace/install/robotic_arm_controls:/home/luka/rover_workspace/install/ld_controls:/home/luka/rover_workspace/install/gps_node:/home/luka/rover_workspace/install/camera_nodes:/home/luka/rover_workspace/install/drive_urdf:/home/luka/rover_workspace/install/drive_controls:/home/luka/rover_workspace/install/autonomous_navigation:/home/luka/ws_moveit2/install/uorover_arm:/opt/ros/humble /usr/bin/cmake --build /home/luka/ws_moveit2/build/uorover_ik -- -j12 -l12
+[0.560s] [35m[1mConsolidate compiler generated dependencies of target rmm_hardware[0m
+[0.574s] [ 50%] Built target ik_hardware_interface
+[0.574s] [ 50%] [32mBuilding CXX object CMakeFiles/rmm_hardware.dir/hardware/rmm_hardware.cpp.o[0m
+[0.578s] [ 83%] Built target uorover_ik
+[1.121s] In file included from [01m[K/home/luka/ws_moveit2/src/uorover_ik/hardware/rmm_hardware.cpp:1[m[K:
+[1.121s] [01m[K/home/luka/ws_moveit2/src/uorover_ik/hardware/include/uorover_ik/rmm_hardware.hpp:8:93:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[1.121s]     8 |     class HARDWARE_INTERFACE_PUBLIC ArmSystem : public hardware_interface::SystemInterface{}
+[1.122s]       |                                                                                             [01;31m[K^[m[K
+[1.122s]       |                                                                                             [32m[K;[m[K
+[1.222s] gmake[2]: *** [CMakeFiles/rmm_hardware.dir/build.make:76: CMakeFiles/rmm_hardware.dir/hardware/rmm_hardware.cpp.o] Error 1
+[1.222s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/rmm_hardware.dir/all] Error 2
+[1.223s] gmake: *** [Makefile:146: all] Error 2
+[1.225s] Invoked command in '/home/luka/ws_moveit2/build/uorover_ik' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/rover_workspace/install/robotic_arm_controls:/home/luka/rover_workspace/install/ld_controls:/home/luka/rover_workspace/install/gps_node:/home/luka/rover_workspace/install/camera_nodes:/home/luka/rover_workspace/install/drive_urdf:/home/luka/rover_workspace/install/drive_controls:/home/luka/rover_workspace/install/autonomous_navigation:/home/luka/ws_moveit2/install/uorover_arm:/opt/ros/humble /usr/bin/cmake --build /home/luka/ws_moveit2/build/uorover_ik -- -j12 -l12

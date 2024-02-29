@@ -1,0 +1,2 @@
+Invoking command in '/home/luka/ws_moveit2/build/uorover_ik': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/luka/ws_moveit2/src/uorover_ik -DCMAKE_INSTALL_PREFIX=/home/luka/ws_moveit2/install/uorover_ik
+Invoked command in '/home/luka/ws_moveit2/build/uorover_ik' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/luka/ws_moveit2/src/uorover_ik -DCMAKE_INSTALL_PREFIX=/home/luka/ws_moveit2/install/uorover_ik

@@ -1,1 +1,1 @@
-general_interfaces:moveit_ros_planning_interface:rclcpp:std_msgs
+general_interfaces:hardware_interface:moveit_ros_planning_interface:pluginlib:rclcpp:rclcpp_lifecycle:std_msgs

@@ -36,7 +36,7 @@ endif()
 set(uorover_ik_FOUND_AMENT_PACKAGE TRUE)
 
 # include all config extra files
-set(_extras "")
+set(_extras "ament_cmake_export_targets-extras.cmake")
 foreach(_extra ${_extras})
   include("${uorover_ik_DIR}/${_extra}")
 endforeach()

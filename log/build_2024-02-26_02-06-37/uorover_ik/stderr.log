@@ -1,4 +1,0 @@
-[01m[K/home/luka/ws_moveit2/src/uorover_ik/src/ik_hardware_interface.cpp:[m[K In member function ‘[01m[Kvoid IKHardwareInterface::arm_callback(const ArmPose&)[m[K’:
-[01m[K/home/luka/ws_moveit2/src/uorover_ik/src/ik_hardware_interface.cpp:134:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
-  134 |     void arm_callback([01;35m[Kconst general_interfaces::msg::ArmPose &msg[m[K){
-      |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K

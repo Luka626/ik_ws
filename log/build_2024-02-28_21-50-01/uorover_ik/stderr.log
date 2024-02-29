@@ -1,0 +1,12 @@
+[31mCMake Error at CMakeLists.txt:22 (add_library):
+  add_library cannot create target "uorover_ik" because another target with
+  the same name already exists.  The existing target is an executable created
+  in source directory "/home/luka/ws_moveit2/src/uorover_ik".  See
+  documentation for policy CMP0002 for more details.
+
+[0m
+[31mCMake Error at CMakeLists.txt:42 (pluglib_export_plugin_description_file):
+  Unknown CMake command "pluglib_export_plugin_description_file".
+
+[0m
+gmake: *** [Makefile:308: cmake_check_build_system] Error 1

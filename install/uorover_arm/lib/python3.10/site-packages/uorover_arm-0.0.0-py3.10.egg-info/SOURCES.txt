@@ -24,4 +24,4 @@ test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
 uorover_arm/__init__.py
-urdf/crane.urdf
+urdf/rmm.urdf

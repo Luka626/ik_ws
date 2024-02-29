@@ -6,4 +6,4 @@ uorover_arm:
   max_cache_size: 10000
   min_pose_distance: 1.0
   min_joint_config_distance: 4.0
-  position_only_ik: true
+  position_only_ik: false

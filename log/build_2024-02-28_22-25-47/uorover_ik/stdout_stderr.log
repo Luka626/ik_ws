@@ -1,0 +1,13 @@
+[35m[1mConsolidate compiler generated dependencies of target rmm_hardware[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rmm_hardware.dir/hardware/rmm_hardware.cpp.o[0m
+[ 50%] Built target ik_hardware_interface
+[ 83%] Built target uorover_ik
+[01m[K/home/luka/ws_moveit2/src/uorover_ik/hardware/rmm_hardware.cpp:30:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   30 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/luka/ws_moveit2/src/uorover_ik/hardware/rmm_hardware.cpp:6:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+    6 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/rmm_hardware.dir/build.make:76: CMakeFiles/rmm_hardware.dir/hardware/rmm_hardware.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/rmm_hardware.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

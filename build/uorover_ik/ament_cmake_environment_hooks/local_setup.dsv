@@ -1,2 +1,3 @@
 source;share/uorover_ik/environment/ament_prefix_path.sh
+source;share/uorover_ik/environment/library_path.sh
 source;share/uorover_ik/environment/path.sh

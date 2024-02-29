@@ -211,41 +211,41 @@ uorover_ik/fast:
 .PHONY : uorover_ik/fast
 
 #=============================================================================
-# Target rules for targets named ik_hardware_interface
+# Target rules for targets named rmm_hardware
 
 # Build rule for target.
-ik_hardware_interface: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ik_hardware_interface
-.PHONY : ik_hardware_interface
+rmm_hardware: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rmm_hardware
+.PHONY : rmm_hardware
 
 # fast build rule for target.
-ik_hardware_interface/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ik_hardware_interface.dir/build.make CMakeFiles/ik_hardware_interface.dir/build
-.PHONY : ik_hardware_interface/fast
+rmm_hardware/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rmm_hardware.dir/build.make CMakeFiles/rmm_hardware.dir/build
+.PHONY : rmm_hardware/fast
 
-src/ik_hardware_interface.o: src/ik_hardware_interface.cpp.o
-.PHONY : src/ik_hardware_interface.o
+hardware/rmm_hardware.o: hardware/rmm_hardware.cpp.o
+.PHONY : hardware/rmm_hardware.o
 
 # target to build an object file
-src/ik_hardware_interface.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ik_hardware_interface.dir/build.make CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o
-.PHONY : src/ik_hardware_interface.cpp.o
+hardware/rmm_hardware.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rmm_hardware.dir/build.make CMakeFiles/rmm_hardware.dir/hardware/rmm_hardware.cpp.o
+.PHONY : hardware/rmm_hardware.cpp.o
 
-src/ik_hardware_interface.i: src/ik_hardware_interface.cpp.i
-.PHONY : src/ik_hardware_interface.i
+hardware/rmm_hardware.i: hardware/rmm_hardware.cpp.i
+.PHONY : hardware/rmm_hardware.i
 
 # target to preprocess a source file
-src/ik_hardware_interface.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ik_hardware_interface.dir/build.make CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.i
-.PHONY : src/ik_hardware_interface.cpp.i
+hardware/rmm_hardware.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rmm_hardware.dir/build.make CMakeFiles/rmm_hardware.dir/hardware/rmm_hardware.cpp.i
+.PHONY : hardware/rmm_hardware.cpp.i
 
-src/ik_hardware_interface.s: src/ik_hardware_interface.cpp.s
-.PHONY : src/ik_hardware_interface.s
+hardware/rmm_hardware.s: hardware/rmm_hardware.cpp.s
+.PHONY : hardware/rmm_hardware.s
 
 # target to generate assembly for a file
-src/ik_hardware_interface.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ik_hardware_interface.dir/build.make CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.s
-.PHONY : src/ik_hardware_interface.cpp.s
+hardware/rmm_hardware.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rmm_hardware.dir/build.make CMakeFiles/rmm_hardware.dir/hardware/rmm_hardware.cpp.s
+.PHONY : hardware/rmm_hardware.cpp.s
 
 src/uorover_ik.o: src/uorover_ik.cpp.o
 .PHONY : src/uorover_ik.o
@@ -286,11 +286,11 @@ help:
 	@echo "... test"
 	@echo "... uninstall"
 	@echo "... uorover_ik_uninstall"
-	@echo "... ik_hardware_interface"
+	@echo "... rmm_hardware"
 	@echo "... uorover_ik"
-	@echo "... src/ik_hardware_interface.o"
-	@echo "... src/ik_hardware_interface.i"
-	@echo "... src/ik_hardware_interface.s"
+	@echo "... hardware/rmm_hardware.o"
+	@echo "... hardware/rmm_hardware.i"
+	@echo "... hardware/rmm_hardware.s"
 	@echo "... src/uorover_ik.o"
 	@echo "... src/uorover_ik.i"
 	@echo "... src/uorover_ik.s"

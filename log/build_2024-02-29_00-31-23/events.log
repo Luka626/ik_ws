@@ -1,0 +1,90 @@
+[0.000000] (-) TimerEvent: {}
+[0.000114] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_7'}
+[0.000201] (-) JobUnselected: {'identifier': 'uorover_arm'}
+[0.000238] (-) JobUnselected: {'identifier': 'uorover_moveit_config'}
+[0.000255] (uorover_ik) JobQueued: {'identifier': 'uorover_ik', 'dependencies': OrderedDict()}
+[0.000280] (uorover_ik) JobStarted: {'identifier': 'uorover_ik'}
+[0.099659] (-) TimerEvent: {}
+[0.107269] (uorover_ik) JobProgress: {'identifier': 'uorover_ik', 'progress': 'cmake'}
+[0.108412] (uorover_ik) JobProgress: {'identifier': 'uorover_ik', 'progress': 'build'}
+[0.108444] (uorover_ik) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/luka/ws_moveit2/build/uorover_ik', '--', '-j12', '-l12'], 'cwd': '/home/luka/ws_moveit2/build/uorover_ik', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('DBUS_SESSION_DBUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('TMUX', '/tmp/tmux-1000/default,45318,0'), ('LANGUAGE', 'en_CA:en'), ('USER', 'luka'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/luka/ws_moveit2/install/ros2_control_demo_example_7/lib:/home/luka/rover_workspace/install/general_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/home/luka/rover_workspace/src/chassis_controls/lib/x86-64:/home/luka/rover_workspace/src/chassis_controls/lib/x86-64'), ('HOME', '/home/luka'), ('OLDPWD', '/home/luka'), ('TERM_PROGRAM_VERSION', '3.2a'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2698'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/luka/rover_workspace/install:/home/luka/ws_moveit2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'luka'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luka'), ('TERM', 'screen'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/luka/.local/bin:/opt/ros/humble/bin:/home/luka/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/luka072:@/tmp/.ICE-unix/2521,unix/luka072:/tmp/.ICE-unix/2521'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3efe22c4_f5dc_45e4_91a0_a794378ca945'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.243'), ('TERM_PROGRAM', 'tmux'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/luka/ws_moveit2/install/uorover_ik:/home/luka/ws_moveit2/install/ros2_control_demo_example_7:/home/luka/rover_workspace/install/robotic_arm_controls:/home/luka/rover_workspace/install/ld_controls:/home/luka/rover_workspace/install/gps_node:/home/luka/rover_workspace/install/chassis_controls:/home/luka/rover_workspace/install/camera_nodes:/home/luka/rover_workspace/install/general_interfaces:/home/luka/rover_workspace/install/drive_urdf:/home/luka/rover_workspace/install/drive_controls:/home/luka/rover_workspace/install/autonomous_navigation:/home/luka/ws_moveit2/install/uorover_moveit_config:/home/luka/ws_moveit2/install/uorover_arm:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luka/ws_moveit2/build/uorover_ik'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/luka/rover_workspace/install/robotic_arm_controls/lib/python3.10/site-packages:/home/luka/rover_workspace/install/ld_controls/lib/python3.10/site-packages:/home/luka/rover_workspace/install/gps_node/lib/python3.10/site-packages:/home/luka/rover_workspace/install/camera_nodes/lib/python3.10/site-packages:/home/luka/rover_workspace/install/general_interfaces/local/lib/python3.10/dist-packages:/home/luka/rover_workspace/install/drive_urdf/lib/python3.10/site-packages:/home/luka/rover_workspace/install/drive_controls/lib/python3.10/site-packages:/home/luka/rover_workspace/install/autonomous_navigation/lib/python3.10/site-packages:/home/luka/ws_moveit2/install/uorover_arm/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('TMUX_PANE', '%8'), ('CMAKE_PREFIX_PATH', '/home/luka/ws_moveit2/install/uorover_ik:/home/luka/ws_moveit2/install/ros2_control_demo_example_7:/home/luka/rover_workspace/install/chassis_controls:/home/luka/rover_workspace/install/general_interfaces:/home/luka/ws_moveit2/install/uorover_moveit_config:/home/luka/rover_workspace/install/robotic_arm_controls:/home/luka/rover_workspace/install/ld_controls:/home/luka/rover_workspace/install/gps_node:/home/luka/rover_workspace/install/camera_nodes:/home/luka/rover_workspace/install/drive_urdf:/home/luka/rover_workspace/install/drive_controls:/home/luka/rover_workspace/install/autonomous_navigation:/home/luka/ws_moveit2/install/uorover_arm:/opt/ros/humble')]), 'shell': False}
+[0.156563] (uorover_ik) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rmm_hardware\x1b[0m\n'}
+[0.169741] (uorover_ik) StdoutLine: {'line': b'[ 33%] Built target ik_hardware_interface\n'}
+[0.173010] (uorover_ik) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/rmm_hardware.dir/hardware/rmm_hardware.cpp.o\x1b[0m\n'}
+[0.173113] (uorover_ik) StdoutLine: {'line': b'[ 83%] Built target uorover_ik\n'}
+[0.199782] (-) TimerEvent: {}
+[0.300031] (-) TimerEvent: {}
+[0.400291] (-) TimerEvent: {}
+[0.500573] (-) TimerEvent: {}
+[0.600828] (-) TimerEvent: {}
+[0.701125] (-) TimerEvent: {}
+[0.801418] (-) TimerEvent: {}
+[0.901669] (-) TimerEvent: {}
+[1.001915] (-) TimerEvent: {}
+[1.102200] (-) TimerEvent: {}
+[1.202507] (-) TimerEvent: {}
+[1.302767] (-) TimerEvent: {}
+[1.403077] (-) TimerEvent: {}
+[1.503323] (-) TimerEvent: {}
+[1.603631] (-) TimerEvent: {}
+[1.703909] (-) TimerEvent: {}
+[1.804234] (-) TimerEvent: {}
+[1.904610] (-) TimerEvent: {}
+[2.004873] (-) TimerEvent: {}
+[2.105133] (-) TimerEvent: {}
+[2.205455] (-) TimerEvent: {}
+[2.305712] (-) TimerEvent: {}
+[2.306284] (uorover_ik) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[2.306409] (uorover_ik) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[2.306466] (uorover_ik) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:41\x1b[m\x1b[K,\n'}
+[2.306517] (uorover_ik) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/hardware_interface/handle.hpp:18\x1b[m\x1b[K,\n'}
+[2.306565] (uorover_ik) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luka/ws_moveit2/src/uorover_ik/hardware/include/uorover_ik/rmm_hardware.hpp:4\x1b[m\x1b[K,\n'}
+[2.306613] (uorover_ik) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luka/ws_moveit2/src/uorover_ik/hardware/rmm_hardware.cpp:1\x1b[m\x1b[K:\n'}
+[2.306661] (uorover_ik) StderrLine: {'line': b'/usr/include/c++/11/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = rclcpp::Node; _Args = {}; _Tp = rclcpp::Node]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.306711] (uorover_ik) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:516:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = rclcpp::Node; _Args = {}; _Tp = rclcpp::Node; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<rclcpp::Node>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.306761] (uorover_ik) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {}; _Tp = rclcpp::Node; _Alloc = std::allocator<rclcpp::Node>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.306862] (uorover_ik) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = rclcpp::Node; _Alloc = std::allocator<rclcpp::Node>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.306928] (uorover_ik) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<rclcpp::Node>; _Args = {}; _Tp = rclcpp::Node; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.306976] (uorover_ik) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<rclcpp::Node>; _Args = {}; _Tp = rclcpp::Node]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.307024] (uorover_ik) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = rclcpp::Node; _Alloc = std::allocator<rclcpp::Node>; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.307071] (uorover_ik) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = rclcpp::Node; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.307118] (uorover_ik) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:80:3:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic std::shared_ptr<rclcpp::Node> rclcpp::Node::make_shared(Args&& ...) [with Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.307175] (uorover_ik) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luka/ws_moveit2/src/uorover_ik/hardware/rmm_hardware.cpp:34:42:\x1b[m\x1b[K   required from here\n'}
+[2.307227] (uorover_ik) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:162:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.307275] (uorover_ik) StderrLine: {'line': b'  162 |         { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[2.307322] (uorover_ik) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.307368] (uorover_ik) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/luka/ws_moveit2/src/uorover_ik/hardware/include/uorover_ik/rmm_hardware.hpp:11\x1b[m\x1b[K,\n'}
+[2.307414] (uorover_ik) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/luka/ws_moveit2/src/uorover_ik/hardware/rmm_hardware.cpp:1\x1b[m\x1b[K:\n'}
+[2.307460] (uorover_ik) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const rclcpp::Node&, const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.307512] (uorover_ik) StderrLine: {'line': b' 1294 |   \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[2.307558] (uorover_ik) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.307603] (uorover_ik) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[2.307650] (uorover_ik) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const string&, const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.307701] (uorover_ik) StderrLine: {'line': b'  101 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[2.307747] (uorover_ik) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.307793] (uorover_ik) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 0 provided\n'}
+[2.307839] (uorover_ik) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.307885] (uorover_ik) StderrLine: {'line': b'   89 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[2.307931] (uorover_ik) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.307977] (uorover_ik) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[2.405841] (-) TimerEvent: {}
+[2.506114] (-) TimerEvent: {}
+[2.606405] (-) TimerEvent: {}
+[2.706665] (-) TimerEvent: {}
+[2.806934] (-) TimerEvent: {}
+[2.907201] (-) TimerEvent: {}
+[3.007490] (-) TimerEvent: {}
+[3.107776] (-) TimerEvent: {}
+[3.208073] (-) TimerEvent: {}
+[3.308333] (-) TimerEvent: {}
+[3.408597] (-) TimerEvent: {}
+[3.508871] (-) TimerEvent: {}
+[3.609132] (-) TimerEvent: {}
+[3.674351] (uorover_ik) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rmm_hardware.dir/build.make:76: CMakeFiles/rmm_hardware.dir/hardware/rmm_hardware.cpp.o] Error 1\n'}
+[3.674696] (uorover_ik) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/rmm_hardware.dir/all] Error 2\n'}
+[3.674858] (uorover_ik) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.676688] (uorover_ik) CommandEnded: {'returncode': 2}
+[3.709315] (-) TimerEvent: {}
+[3.806636] (uorover_ik) JobEnded: {'identifier': 'uorover_ik', 'rc': 2}
+[3.809496] (-) TimerEvent: {}
+[3.817417] (-) EventReactorShutdown: {}

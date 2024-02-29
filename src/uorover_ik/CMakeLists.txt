@@ -1,4 +1,7 @@
+
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 cmake_minimum_required(VERSION 3.8)
+
 project(uorover_ik)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
@@ -12,12 +15,21 @@ find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(control_msgs REQUIRED)
 find_package(general_interfaces REQUIRED)
+find_package(hardware_interface REQUIRED)
+find_package(pluginlib REQUIRED)
+find_package(rclcpp_lifecycle REQUIRED)
 
 add_executable(uorover_ik src/uorover_ik.cpp)
-add_executable(ik_hardware_interface src/ik_hardware_interface.cpp)
+
+add_library(
+    rmm_hardware
+    SHARED
+    hardware/rmm_hardware.cpp
+)
 
 target_include_directories(uorover_ik PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCEC_DIR}/hardware/include>
   $<INSTALL_INTERFACE:include>)
 target_compile_features(uorover_ik PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
 ament_target_dependencies(
@@ -27,14 +39,35 @@ ament_target_dependencies(
   "general_interfaces"
 )
 
-ament_target_dependencies(ik_hardware_interface "moveit_ros_planning_interface" "rclcpp" "std_msgs" "control_msgs" "general_interfaces")
+ament_target_dependencies(
+  rmm_hardware PUBLIC
+  "pluginlib"
+  "rclcpp_lifecycle"
+  "hardware_interface"
+  "general_interfaces"
+  "rclcpp"
+  )
 
-install(TARGETS uorover_ik ik_hardware_interface
+pluginlib_export_plugin_description_file(rmm_hardware rmm_hardware.xml)
+
+install(TARGETS uorover_ik 
   DESTINATION lib/${PROJECT_NAME})
 
 install(
   DIRECTORY launch
   DESTINATION share/${PROJECT_NAME})
+
+install(
+    DIRECTORY hardware/include/
+    DESTINATION include/rmm_hardware
+)
+
+install(TARGETS rmm_hardware
+    EXPORT rmm_hardware
+    ARCHIVE DESTINATION lib
+    LIBRARY DESTINATION lib
+    RUNTIME DESTINATION lib
+)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -48,4 +81,5 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
+ament_export_targets(rmm_hardware HAS_LIBRARY_TARGET)
 ament_package()
