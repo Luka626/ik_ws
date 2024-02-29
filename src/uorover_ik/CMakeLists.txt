@@ -29,7 +29,7 @@ add_library(
 
 target_include_directories(uorover_ik PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
-  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCEC_DIR}/hardware/include>
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/hardware/include>
   $<INSTALL_INTERFACE:include>)
 target_compile_features(uorover_ik PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
 ament_target_dependencies(
@@ -48,7 +48,7 @@ ament_target_dependencies(
   "rclcpp"
   )
 
-pluginlib_export_plugin_description_file(rmm_hardware rmm_hardware.xml)
+pluginlib_export_plugin_description_file(hardware_interface rmm_hardware.xml)
 
 install(TARGETS uorover_ik 
   DESTINATION lib/${PROJECT_NAME})

@@ -1,7 +1,8 @@
 # This config file is used by ros2_control
 controller_manager:
   ros__parameters:
-    update_rate: 100  # Hz
+    update_rate: 20  # Hz
+    use_sim_time: true
 
     uorover_arm_controller:
       type: joint_trajectory_controller/JointTrajectoryController
@@ -21,4 +22,4 @@ uorover_arm_controller:
       - position
     state_interfaces:
       - position
-      - velocity
+

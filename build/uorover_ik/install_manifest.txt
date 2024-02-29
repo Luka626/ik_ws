@@ -18,7 +18,7 @@
 /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/local_setup.dsv
 /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/package.dsv
 /home/luka/ws_moveit2/install/uorover_ik/share/ament_index/resource_index/packages/uorover_ik
-/home/luka/ws_moveit2/install/uorover_ik/share/ament_index/resource_index/rmm_hardware__pluginlib__plugin/uorover_ik
+/home/luka/ws_moveit2/install/uorover_ik/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/uorover_ik
 /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/cmake/rmm_hardwareExport.cmake
 /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/cmake/rmm_hardwareExport-noconfig.cmake
 /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/cmake/ament_cmake_export_targets-extras.cmake

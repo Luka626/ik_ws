@@ -154,7 +154,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/rmm_hardware__pluginlib__plugin" TYPE FILE FILES "/home/luka/ws_moveit2/build/uorover_ik/ament_cmake_index/share/ament_index/resource_index/rmm_hardware__pluginlib__plugin/uorover_ik")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/hardware_interface__pluginlib__plugin" TYPE FILE FILES "/home/luka/ws_moveit2/build/uorover_ik/ament_cmake_index/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/uorover_ik")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
