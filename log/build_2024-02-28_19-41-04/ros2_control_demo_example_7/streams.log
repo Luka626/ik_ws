@@ -1,0 +1,90 @@
+[0.628s] Invoking command in '/home/luka/ws_moveit2/build/ros2_control_demo_example_7': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/rover_workspace/install/robotic_arm_controls:/home/luka/rover_workspace/install/ld_controls:/home/luka/rover_workspace/install/gps_node:/home/luka/rover_workspace/install/camera_nodes:/home/luka/rover_workspace/install/drive_urdf:/home/luka/rover_workspace/install/drive_controls:/home/luka/rover_workspace/install/autonomous_navigation:/home/luka/ws_moveit2/install/uorover_arm:/opt/ros/humble /usr/bin/cmake /home/luka/ws_moveit2/src/example_7 -DCMAKE_INSTALL_PREFIX=/home/luka/ws_moveit2/install/ros2_control_demo_example_7
+[0.690s] -- The CXX compiler identification is GNU 11.4.0
+[0.697s] -- Detecting CXX compiler ABI info
+[0.776s] -- Detecting CXX compiler ABI info - done
+[0.783s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.783s] -- Detecting CXX compile features
+[0.784s] -- Detecting CXX compile features - done
+[0.787s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.949s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.055s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[1.109s] -- Found hardware_interface: 2.39.1 (/opt/ros/humble/share/hardware_interface/cmake)
+[1.150s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.157s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.167s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.182s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.201s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.864s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.868s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.905s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.920s] -- Looking for C++ include pthread.h
+[1.999s] -- Looking for C++ include pthread.h - found
+[2.000s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.086s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.087s] -- Found Threads: TRUE  
+[2.249s] -- Found kdl_parser: 2.6.4 (/opt/ros/humble/share/kdl_parser/cmake)
+[2.266s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.267s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.268s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.274s] -- Found controller_interface: 2.39.1 (/opt/ros/humble/share/controller_interface/cmake)
+[2.373s] -- Found realtime_tools: 2.5.0 (/opt/ros/humble/share/realtime_tools/cmake)
+[2.645s] -- Found ament_cmake_pytest: 1.3.8 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[3.424s] -- Configuring done
+[3.455s] -- Generating done
+[3.456s] -- Build files have been written to: /home/luka/ws_moveit2/build/ros2_control_demo_example_7
+[3.464s] Invoked command in '/home/luka/ws_moveit2/build/ros2_control_demo_example_7' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/rover_workspace/install/robotic_arm_controls:/home/luka/rover_workspace/install/ld_controls:/home/luka/rover_workspace/install/gps_node:/home/luka/rover_workspace/install/camera_nodes:/home/luka/rover_workspace/install/drive_urdf:/home/luka/rover_workspace/install/drive_controls:/home/luka/rover_workspace/install/autonomous_navigation:/home/luka/ws_moveit2/install/uorover_arm:/opt/ros/humble /usr/bin/cmake /home/luka/ws_moveit2/src/example_7 -DCMAKE_INSTALL_PREFIX=/home/luka/ws_moveit2/install/ros2_control_demo_example_7
+[3.466s] Invoking command in '/home/luka/ws_moveit2/build/ros2_control_demo_example_7': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/rover_workspace/install/robotic_arm_controls:/home/luka/rover_workspace/install/ld_controls:/home/luka/rover_workspace/install/gps_node:/home/luka/rover_workspace/install/camera_nodes:/home/luka/rover_workspace/install/drive_urdf:/home/luka/rover_workspace/install/drive_controls:/home/luka/rover_workspace/install/autonomous_navigation:/home/luka/ws_moveit2/install/uorover_arm:/opt/ros/humble /usr/bin/cmake --build /home/luka/ws_moveit2/build/ros2_control_demo_example_7 -- -j12 -l12
+[3.520s] [ 60%] [32mBuilding CXX object CMakeFiles/send_trajectory.dir/reference_generator/send_trajectory.cpp.o[0m
+[3.521s] [ 60%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_example_7.dir/controller/r6bot_controller.cpp.o[0m
+[3.521s] [ 60%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_example_7.dir/hardware/r6bot_hardware.cpp.o[0m
+[8.772s] [ 80%] [32m[1mLinking CXX executable send_trajectory[0m
+[8.994s] [ 80%] Built target send_trajectory
+[12.017s] [100%] [32m[1mLinking CXX shared library libros2_control_demo_example_7.so[0m
+[12.583s] [100%] Built target ros2_control_demo_example_7
+[12.594s] Invoked command in '/home/luka/ws_moveit2/build/ros2_control_demo_example_7' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/rover_workspace/install/robotic_arm_controls:/home/luka/rover_workspace/install/ld_controls:/home/luka/rover_workspace/install/gps_node:/home/luka/rover_workspace/install/camera_nodes:/home/luka/rover_workspace/install/drive_urdf:/home/luka/rover_workspace/install/drive_controls:/home/luka/rover_workspace/install/autonomous_navigation:/home/luka/ws_moveit2/install/uorover_arm:/opt/ros/humble /usr/bin/cmake --build /home/luka/ws_moveit2/build/ros2_control_demo_example_7 -- -j12 -l12
+[12.626s] Invoking command in '/home/luka/ws_moveit2/build/ros2_control_demo_example_7': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/rover_workspace/install/robotic_arm_controls:/home/luka/rover_workspace/install/ld_controls:/home/luka/rover_workspace/install/gps_node:/home/luka/rover_workspace/install/camera_nodes:/home/luka/rover_workspace/install/drive_urdf:/home/luka/rover_workspace/install/drive_controls:/home/luka/rover_workspace/install/autonomous_navigation:/home/luka/ws_moveit2/install/uorover_arm:/opt/ros/humble /usr/bin/cmake --install /home/luka/ws_moveit2/build/ros2_control_demo_example_7
+[12.637s] -- Install configuration: ""
+[12.637s] -- Installing: /home/luka/ws_moveit2/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/ros2_control_demo_example_7.xml
+[12.638s] -- Up-to-date: /home/luka/ws_moveit2/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/ros2_control_demo_example_7.xml
+[12.639s] -- Installing: /home/luka/ws_moveit2/install/ros2_control_demo_example_7/include/ros2_control_demo_example_7
+[12.639s] -- Installing: /home/luka/ws_moveit2/install/ros2_control_demo_example_7/include/ros2_control_demo_example_7/ros2_control_demo_example_7
+[12.639s] -- Installing: /home/luka/ws_moveit2/install/ros2_control_demo_example_7/include/ros2_control_demo_example_7/ros2_control_demo_example_7/r6bot_hardware.hpp
+[12.639s] -- Installing: /home/luka/ws_moveit2/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/launch
+[12.640s] -- Installing: /home/luka/ws_moveit2/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/launch/view_r6bot.launch.py
+[12.640s] -- Installing: /home/luka/ws_moveit2/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/ros2_control
+[12.640s] -- Installing: /home/luka/ws_moveit2/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/ros2_control/r6bot.ros2_control.xacro
+[12.640s] -- Installing: /home/luka/ws_moveit2/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/urdf
+[12.640s] -- Installing: /home/luka/ws_moveit2/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/urdf/r6bot.urdf.xacro
+[12.640s] -- Up-to-date: /home/luka/ws_moveit2/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/launch
+[12.640s] -- Installing: /home/luka/ws_moveit2/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/launch/r6bot_controller.launch.py
+[12.641s] -- Installing: /home/luka/ws_moveit2/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/launch/send_trajectory.launch.py
+[12.641s] -- Installing: /home/luka/ws_moveit2/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/config
+[12.641s] -- Installing: /home/luka/ws_moveit2/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/config/r6bot_controller.yaml
+[12.641s] -- Installing: /home/luka/ws_moveit2/install/ros2_control_demo_example_7/lib/ros2_control_demo_example_7/send_trajectory
+[12.642s] -- Set runtime path of "/home/luka/ws_moveit2/install/ros2_control_demo_example_7/lib/ros2_control_demo_example_7/send_trajectory" to ""
+[12.642s] -- Installing: /home/luka/ws_moveit2/install/ros2_control_demo_example_7/lib/libros2_control_demo_example_7.so
+[12.649s] -- Set runtime path of "/home/luka/ws_moveit2/install/ros2_control_demo_example_7/lib/libros2_control_demo_example_7.so" to ""
+[12.649s] -- Installing: /home/luka/ws_moveit2/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/environment/library_path.sh
+[12.649s] -- Installing: /home/luka/ws_moveit2/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/environment/library_path.dsv
+[12.649s] -- Installing: /home/luka/ws_moveit2/install/ros2_control_demo_example_7/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_example_7
+[12.649s] -- Installing: /home/luka/ws_moveit2/install/ros2_control_demo_example_7/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_example_7
+[12.650s] -- Installing: /home/luka/ws_moveit2/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/environment/ament_prefix_path.sh
+[12.650s] -- Installing: /home/luka/ws_moveit2/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/environment/ament_prefix_path.dsv
+[12.650s] -- Installing: /home/luka/ws_moveit2/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/environment/path.sh
+[12.650s] -- Installing: /home/luka/ws_moveit2/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/environment/path.dsv
+[12.650s] -- Installing: /home/luka/ws_moveit2/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/local_setup.bash
+[12.650s] -- Installing: /home/luka/ws_moveit2/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/local_setup.sh
+[12.651s] -- Installing: /home/luka/ws_moveit2/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/local_setup.zsh
+[12.651s] -- Installing: /home/luka/ws_moveit2/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/local_setup.dsv
+[12.651s] -- Installing: /home/luka/ws_moveit2/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/package.dsv
+[12.651s] -- Installing: /home/luka/ws_moveit2/install/ros2_control_demo_example_7/share/ament_index/resource_index/packages/ros2_control_demo_example_7
+[12.651s] -- Installing: /home/luka/ws_moveit2/install/ros2_control_demo_example_7/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ros2_control_demo_example_7
+[12.651s] -- Installing: /home/luka/ws_moveit2/install/ros2_control_demo_example_7/share/ament_index/resource_index/controller_interface__pluginlib__plugin/ros2_control_demo_example_7
+[12.651s] -- Installing: /home/luka/ws_moveit2/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/cmake/export_ros2_control_demo_example_7Export.cmake
+[12.651s] -- Installing: /home/luka/ws_moveit2/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/cmake/export_ros2_control_demo_example_7Export-noconfig.cmake
+[12.652s] -- Installing: /home/luka/ws_moveit2/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/cmake/ament_cmake_export_targets-extras.cmake
+[12.652s] -- Installing: /home/luka/ws_moveit2/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.652s] -- Installing: /home/luka/ws_moveit2/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/cmake/ros2_control_demo_example_7Config.cmake
+[12.652s] -- Installing: /home/luka/ws_moveit2/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/cmake/ros2_control_demo_example_7Config-version.cmake
+[12.652s] -- Installing: /home/luka/ws_moveit2/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/package.xml
+[12.654s] Invoked command in '/home/luka/ws_moveit2/build/ros2_control_demo_example_7' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/rover_workspace/install/robotic_arm_controls:/home/luka/rover_workspace/install/ld_controls:/home/luka/rover_workspace/install/gps_node:/home/luka/rover_workspace/install/camera_nodes:/home/luka/rover_workspace/install/drive_urdf:/home/luka/rover_workspace/install/drive_controls:/home/luka/rover_workspace/install/autonomous_navigation:/home/luka/ws_moveit2/install/uorover_arm:/opt/ros/humble /usr/bin/cmake --install /home/luka/ws_moveit2/build/ros2_control_demo_example_7

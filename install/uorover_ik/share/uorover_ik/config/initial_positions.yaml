@@ -1,0 +1,8 @@
+# Initial positions for our system
+# TODO: align these with hardware limit switches
+
+initial_positions:
+  q1: 0
+  q2: 0
+  q3: 0
+  q4: 0
