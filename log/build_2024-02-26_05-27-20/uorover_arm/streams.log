@@ -1,0 +1,20 @@
+[3.049s] Invoking command in '/home/luka/ws_moveit2/src/uorover_arm': PYTHONPATH=/home/luka/ws_moveit2/build/uorover_arm/prefix_override:/home/luka/ws_moveit2/install/uorover_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/uorover_arm build --build-base /home/luka/ws_moveit2/build/uorover_arm/build install --record /home/luka/ws_moveit2/build/uorover_arm/install.log --single-version-externally-managed
+[3.824s] running egg_info
+[3.825s] writing ../../build/uorover_arm/uorover_arm.egg-info/PKG-INFO
+[3.825s] writing dependency_links to ../../build/uorover_arm/uorover_arm.egg-info/dependency_links.txt
+[3.826s] writing entry points to ../../build/uorover_arm/uorover_arm.egg-info/entry_points.txt
+[3.826s] writing requirements to ../../build/uorover_arm/uorover_arm.egg-info/requires.txt
+[3.827s] writing top-level names to ../../build/uorover_arm/uorover_arm.egg-info/top_level.txt
+[3.831s] reading manifest file '../../build/uorover_arm/uorover_arm.egg-info/SOURCES.txt'
+[3.834s] writing manifest file '../../build/uorover_arm/uorover_arm.egg-info/SOURCES.txt'
+[3.834s] running build
+[3.835s] running build_py
+[3.835s] running install
+[3.835s] running install_lib
+[3.838s] running install_data
+[3.840s] running install_egg_info
+[3.845s] removing '/home/luka/ws_moveit2/install/uorover_arm/lib/python3.10/site-packages/uorover_arm-0.0.0-py3.10.egg-info' (and everything under it)
+[3.845s] Copying ../../build/uorover_arm/uorover_arm.egg-info to /home/luka/ws_moveit2/install/uorover_arm/lib/python3.10/site-packages/uorover_arm-0.0.0-py3.10.egg-info
+[3.848s] running install_scripts
+[3.900s] writing list of installed files to '/home/luka/ws_moveit2/build/uorover_arm/install.log'
+[3.941s] Invoked command in '/home/luka/ws_moveit2/src/uorover_arm' returned '0': PYTHONPATH=/home/luka/ws_moveit2/build/uorover_arm/prefix_override:/home/luka/ws_moveit2/install/uorover_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/uorover_arm build --build-base /home/luka/ws_moveit2/build/uorover_arm/build install --record /home/luka/ws_moveit2/build/uorover_arm/install.log --single-version-externally-managed

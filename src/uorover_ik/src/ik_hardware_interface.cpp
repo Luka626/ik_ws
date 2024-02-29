@@ -3,6 +3,7 @@
 #include <memory>
 #include <sensor_msgs/msg/detail/joint_state__struct.hpp>
 #include <string>
+#include <unistd.h>
 
 #include "rclcpp/node.hpp"
 #include "rclcpp/executors.hpp"
@@ -41,7 +42,7 @@ class IKHardwareInterface : public rclcpp::Node
         testing = false;
 
         // replace this with the joint_states publisher type
-        upstream_publisher_ = this->create_publisher<sensor_msgs::msg::JointState>("joint_states", 10);
+        upstream_publisher_ = this->create_publisher<sensor_msgs::msg::JointState>("uorover_arm/joint_states", 10);
 
         upstream_subscription_ = this->create_subscription<control_msgs::msg::JointTrajectoryControllerState>(
                 "/uorover_arm_controller/controller_state",
@@ -170,6 +171,7 @@ class IKHardwareInterface : public rclcpp::Node
 int main(int argc, char * argv[])
 {
   rclcpp::init(argc, argv);
+  sleep(10);
   rclcpp::spin(std::make_shared<IKHardwareInterface>());
   rclcpp::shutdown();
   return 0;

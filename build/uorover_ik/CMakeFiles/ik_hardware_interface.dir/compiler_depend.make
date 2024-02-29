@@ -172,6 +172,9 @@ CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o: /home/luka
   /usr/include/c++/11/backward/auto_ptr.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
+  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.hpp \
+  /usr/include/c++/11/algorithm \
+  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
   /usr/include/c++/11/string \
   /usr/include/c++/11/bits/char_traits.h \
   /usr/include/c++/11/bits/localefwd.h \
@@ -204,13 +207,26 @@ CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o: /home/luka
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp \
+  /usr/include/c++/11/stdexcept \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp \
+  /usr/include/unistd.h \
+  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+  /usr/include/x86_64-linux-gnu/bits/environments.h \
+  /usr/include/x86_64-linux-gnu/bits/confname.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/linux/close_range.h \
   /opt/ros/humble/include/rclcpp/rclcpp/node.hpp \
   /usr/include/c++/11/atomic \
   /usr/include/c++/11/condition_variable \
   /usr/include/c++/11/bits/std_mutex.h \
   /usr/include/c++/11/system_error \
   /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
-  /usr/include/c++/11/stdexcept \
   /usr/include/c++/11/bits/unique_lock.h \
   /usr/include/c++/11/list \
   /usr/include/c++/11/bits/stl_list.h \
@@ -280,11 +296,6 @@ CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o: /home/luka
   /opt/ros/humble/include/rcl/rcl/domain_id.h \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/list_parameters_result.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp \
-  /usr/include/c++/11/algorithm \
-  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
-  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp \
-  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp \
-  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__traits.hpp \
   /usr/include/c++/11/sstream \
@@ -331,7 +342,6 @@ CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o: /home/luka
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp \
-  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__builder.hpp \
@@ -601,7 +611,6 @@ CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o: /home/luka
   /home/luka/rover_workspace/install/general_interfaces/include/general_interfaces/general_interfaces/msg/detail/arm_pose__traits.hpp \
   /opt/ros/humble/include/control_msgs/control_msgs/msg/joint_trajectory_controller_state.hpp \
   /opt/ros/humble/include/control_msgs/control_msgs/msg/detail/joint_trajectory_controller_state__struct.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
   /opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__struct.hpp \
   /opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp \
@@ -616,8 +625,13 @@ CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o: /home/luka
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
+  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/joint_state.hpp \
+  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__builder.hpp \
+  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__traits.hpp
 
+
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__builder.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp:
 
@@ -636,8 +650,6 @@ CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o: /home/luka
 /opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__struct.hpp:
 
 /opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__struct.hpp:
-
-/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:
 
 /home/luka/rover_workspace/install/general_interfaces/include/general_interfaces/general_interfaces/msg/detail/arm_pose__struct.hpp:
 
@@ -711,25 +723,17 @@ CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o: /home/luka
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp:
 
-/opt/ros/humble/include/rmw/rmw/qos_policy_kind.h:
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp:
 
-/opt/ros/humble/include/rmw/rmw/events_statuses/incompatible_qos.h:
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h:
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_logging_interface.hpp:
 
-/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_clock_interface.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
+/opt/ros/humble/include/rclcpp/rclcpp/generic_subscription.hpp:
 
-/opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_enable_topic_statistics.hpp:
-
-/opt/ros/humble/include/rcutils/rcutils/types/char_array.h:
-
-/usr/include/c++/11/variant:
-
-/opt/ros/humble/include/rcutils/rcutils/time.h:
-
-/opt/ros/humble/include/rcpputils/rcpputils/thread_safety_annotations.hpp:
+/opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp:
 
 /opt/ros/humble/include/rmw/rmw/types.h:
 
@@ -765,10 +769,6 @@ CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o: /home/luka
 
 /opt/ros/humble/include/rcl/rcl/types.h:
 
-/opt/ros/humble/include/rcutils/rcutils/types/uint8_array.h:
-
-/usr/include/c++/11/ext/atomicity.h:
-
 /usr/include/c++/11/bits/stl_map.h:
 
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp:
@@ -779,12 +779,6 @@ CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o: /home/luka
 
 /usr/include/c++/11/bits/uses_allocator.h:
 
-/usr/include/c++/11/stdexcept:
-
-/usr/include/c++/11/pstl/glue_algorithm_defs.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/detail/cpp_callback_trampoline.hpp:
-
 /usr/include/c++/11/utility:
 
 /usr/include/c++/11/ios:
@@ -794,6 +788,36 @@ CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o: /home/luka
 /opt/ros/humble/include/rcl/rcl/init_options.h:
 
 /opt/ros/humble/include/rcpputils/rcpputils/join.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
+
+/usr/include/time.h:
+
+/usr/include/x86_64-linux-gnu/bits/environments.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
+
+/usr/include/c++/11/bits/exception_defines.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/event.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
+
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:
+
+/opt/ros/humble/include/rcl/rcl/logging_rosout.h:
+
+/usr/include/c++/11/stdexcept:
+
+/usr/include/c++/11/pstl/glue_algorithm_defs.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/detail/cpp_callback_trampoline.hpp:
+
+/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp:
 
 /usr/include/c++/11/bits/basic_string.tcc:
 
@@ -814,8 +838,6 @@ CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o: /home/luka
 /usr/include/c++/11/cerrno:
 
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
-
-/opt/ros/humble/include/rcutils/rcutils/types/string_array.h:
 
 /usr/include/stdio.h:
 
@@ -863,8 +885,6 @@ CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o: /home/luka
 
 /opt/ros/humble/include/rclcpp/rclcpp/init_options.hpp:
 
-/usr/include/c++/11/cstdlib:
-
 /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:
 
 /home/luka/ws_moveit2/src/uorover_ik/src/ik_hardware_interface.cpp:
@@ -897,8 +917,6 @@ CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o: /home/luka
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp:
 
-/usr/include/time.h:
-
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/allocator/allocator_deleter.hpp:
@@ -911,19 +929,11 @@ CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o: /home/luka
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h:
 
-/opt/ros/humble/include/rmw/rmw/events_statuses/events_statuses.h:
-
-/usr/include/c++/11/bits/list.tcc:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
-
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
 /usr/include/x86_64-linux-gnu/bits/timex.h:
 
 /usr/include/c++/11/unordered_set:
-
-/usr/include/c++/11/tr1/bessel_function.tcc:
 
 /usr/include/c++/11/bits/std_mutex.h:
 
@@ -997,6 +1007,12 @@ CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o: /home/luka
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/usr/include/c++/11/bits/predefined_ops.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
@@ -1065,8 +1081,6 @@ CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o: /home/luka
 
 /usr/include/c++/11/bits/erase_if.h:
 
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp:
-
 /usr/include/x86_64-linux-gnu/sys/types.h:
 
 /usr/include/c++/11/future:
@@ -1078,8 +1092,6 @@ CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o: /home/luka
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:
-
-/opt/ros/humble/include/rcutils/rcutils/qsort.h:
 
 /usr/include/c++/11/bits/concept_check.h:
 
@@ -1101,19 +1113,9 @@ CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o: /home/luka
 
 /usr/include/c++/11/ext/type_traits.h:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
-
-/usr/include/c++/11/bits/exception_defines.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/event.hpp:
-
 /usr/include/c++/11/bits/enable_special_members.h:
 
 /usr/include/c++/11/bits/basic_ios.tcc:
-
-/opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_lost.h:
-
-/usr/include/c++/11/bits/codecvt.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__struct.hpp:
 
@@ -1153,6 +1155,8 @@ CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o: /home/luka
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h:
 
+/usr/include/x86_64-linux-gnu/bits/confname.h:
+
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
 /usr/include/c++/11/tr1/gamma.tcc:
@@ -1165,16 +1169,6 @@ CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o: /home/luka
 
 /usr/include/c++/11/bits/alloc_traits.h:
 
-/opt/ros/humble/include/rcutils/rcutils/types/array_list.h:
-
-/usr/include/features-time64.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
-
-/usr/include/c++/11/system_error:
-
-/opt/ros/humble/include/rcpputils/rcpputils/filesystem_helper.hpp:
-
 /usr/include/c++/11/bits/range_access.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
@@ -1183,9 +1177,21 @@ CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o: /home/luka
 
 /usr/include/c++/11/bits/hash_bytes.h:
 
+/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
+
+/usr/include/c++/11/ext/atomicity.h:
+
+/opt/ros/humble/include/rcutils/rcutils/types/uint8_array.h:
+
 /usr/include/c++/11/bits/basic_string.h:
 
 /usr/include/c++/11/bits/shared_ptr_base.h:
+
+/usr/include/c++/11/set:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
 /usr/include/c++/11/bits/vector.tcc:
 
@@ -1203,6 +1209,8 @@ CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o: /home/luka
 
 /usr/include/c++/11/cmath:
 
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__traits.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
 /usr/include/c++/11/bits/std_function.h:
@@ -1215,9 +1223,15 @@ CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o: /home/luka
 
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
 
-/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+/usr/include/features-time64.h:
 
-/usr/include/c++/11/bits/predefined_ops.h:
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+
+/usr/include/c++/11/system_error:
+
+/opt/ros/humble/include/rcutils/rcutils/types/array_list.h:
+
+/opt/ros/humble/include/rcpputils/rcpputils/filesystem_helper.hpp:
 
 /usr/include/c++/11/tuple:
 
@@ -1247,9 +1261,9 @@ CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o: /home/luka
 
 /usr/include/c++/11/bits/stl_algobase.h:
 
-/opt/ros/humble/include/rcutils/rcutils/allocator.h:
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp:
 
-/usr/include/c++/11/bits/functexcept.h:
+/usr/include/unistd.h:
 
 /usr/include/c++/11/bits/postypes.h:
 
@@ -1347,17 +1361,11 @@ CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o: /home/luka
 
 /usr/include/c++/11/bits/cxxabi_forced.h:
 
-/opt/ros/humble/include/rcutils/rcutils/types.h:
-
 /usr/include/c++/11/bits/hashtable.h:
 
 /usr/include/c++/11/bits/hashtable_policy.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/create_generic_publisher.hpp:
-
-/usr/include/c++/11/type_traits:
-
-/opt/ros/humble/include/rmw/rmw/visibility_control.h:
+/usr/include/c++/11/algorithm:
 
 /usr/include/c++/11/backward/binders.h:
 
@@ -1369,11 +1377,23 @@ CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o: /home/luka
 
 /usr/include/x86_64-linux-gnu/bits/fp-fast.h:
 
+/opt/ros/humble/include/rcutils/rcutils/allocator.h:
+
+/usr/include/c++/11/bits/functexcept.h:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:
+
+/usr/include/c++/11/bits/align.h:
+
 /opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:
 
 /usr/include/c++/11/vector:
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+/usr/include/c++/11/cstdlib:
 
 /usr/include/stdlib.h:
 
@@ -1381,17 +1401,59 @@ CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o: /home/luka
 
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
-/opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_changed.h:
-
-/usr/include/c++/11/bit:
-
-/opt/ros/humble/include/tracetools/tracetools/visibility_control.hpp:
-
 /usr/include/x86_64-linux-gnu/sys/select.h:
 
 /usr/include/c++/11/ext/new_allocator.h:
 
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp:
+
+/opt/ros/humble/include/rcutils/rcutils/time.h:
+
+/opt/ros/humble/include/rcpputils/rcpputils/thread_safety_annotations.hpp:
+
+/opt/ros/humble/include/rcutils/rcutils/types.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_enable_topic_statistics.hpp:
+
+/opt/ros/humble/include/rcutils/rcutils/types/char_array.h:
+
+/usr/include/c++/11/variant:
+
+/opt/ros/humble/include/rcutils/rcutils/types/string_array.h:
+
+/opt/ros/humble/include/rcutils/rcutils/qsort.h:
+
+/usr/include/c++/11/bits/list.tcc:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
+
+/opt/ros/humble/include/rmw/rmw/events_statuses/events_statuses.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:
+
+/opt/ros/humble/include/rmw/rmw/events_statuses/incompatible_qos.h:
+
+/opt/ros/humble/include/rmw/rmw/qos_policy_kind.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/create_generic_publisher.hpp:
+
+/usr/include/c++/11/type_traits:
+
+/opt/ros/humble/include/rmw/rmw/visibility_control.h:
+
+/usr/include/c++/11/bit:
+
+/opt/ros/humble/include/tracetools/tracetools/visibility_control.hpp:
+
+/opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_changed.h:
+
+/usr/include/c++/11/bits/codecvt.h:
+
+/opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_lost.h:
+
+/usr/include/c++/11/tr1/bessel_function.tcc:
 
 /opt/ros/humble/include/rmw/rmw/events_statuses/message_lost.h:
 
@@ -1453,10 +1515,6 @@ CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o: /home/luka
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:
 
-/usr/include/c++/11/algorithm:
-
-/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp:
-
 /opt/ros/humble/include/rcpputils/rcpputils/pointer_traits.hpp:
 
 /usr/include/c++/11/bits/std_abs.h:
@@ -1476,8 +1534,6 @@ CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o: /home/luka
 /usr/include/c++/11/ext/aligned_buffer.h:
 
 /usr/include/c++/11/bits/locale_classes.tcc:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp:
 
 /usr/include/c++/11/streambuf:
 
@@ -1558,8 +1614,6 @@ CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o: /home/luka
 /usr/include/c++/11/ext/numeric_traits.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp:
-
-/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp:
 
@@ -1659,9 +1713,9 @@ CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o: /home/luka
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:
 
-/opt/ros/humble/include/rcutils/rcutils/logging.h:
-
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h:
+
+/opt/ros/humble/include/rcutils/rcutils/logging.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/ros_message_intra_process_buffer.hpp:
 
@@ -1670,8 +1724,6 @@ CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o: /home/luka
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/subscription_content_filter_options.hpp:
-
-/opt/ros/humble/include/rcl/rcl/logging_rosout.h:
 
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp:
 
@@ -1688,8 +1740,6 @@ CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o: /home/luka
 /usr/include/alloca.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/publisher_base.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_logging_interface.hpp:
 
 /opt/ros/humble/include/rmw/rmw/network_flow_endpoint.h:
 
@@ -1741,10 +1791,6 @@ CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o: /home/luka
 
 /opt/ros/humble/include/rclcpp/rclcpp/clock.hpp:
 
-/usr/include/c++/11/bits/align.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:
-
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/time.hpp:
@@ -1761,6 +1807,8 @@ CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o: /home/luka
 
 /opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_payload.hpp:
 
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/joint_state.hpp:
+
 /usr/include/c++/11/thread:
 
 /opt/ros/humble/include/rclcpp/rclcpp/generic_publisher.hpp:
@@ -1774,8 +1822,6 @@ CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o: /home/luka
 /opt/ros/humble/include/rmw/rmw/qos_profiles.h:
 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/generic_subscription.hpp:
 
 /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:
 
@@ -1833,16 +1879,6 @@ CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o: /home/luka
 
 /usr/include/c++/11/numeric:
 
+/usr/include/linux/close_range.h:
+
 /usr/include/c++/11/bits/stl_numeric.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_clock_interface.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:
-
-/usr/include/c++/11/set:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp:

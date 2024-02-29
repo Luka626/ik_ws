@@ -173,6 +173,9 @@ CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o
  /usr/include/c++/11/backward/auto_ptr.h
  /usr/include/c++/11/pstl/glue_memory_defs.h
  /usr/include/c++/11/pstl/execution_defs.h
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.hpp
+ /usr/include/c++/11/algorithm
+ /usr/include/c++/11/pstl/glue_algorithm_defs.h
  /usr/include/c++/11/string
  /usr/include/c++/11/bits/char_traits.h
  /usr/include/c++/11/bits/localefwd.h
@@ -205,13 +208,26 @@ CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h
  /usr/include/c++/11/bits/charconv.h
  /usr/include/c++/11/bits/basic_string.tcc
+ /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp
+ /usr/include/c++/11/stdexcept
+ /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp
+ /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp
+ /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp
+ /usr/include/unistd.h
+ /usr/include/x86_64-linux-gnu/bits/posix_opt.h
+ /usr/include/x86_64-linux-gnu/bits/environments.h
+ /usr/include/x86_64-linux-gnu/bits/confname.h
+ /usr/include/x86_64-linux-gnu/bits/getopt_posix.h
+ /usr/include/x86_64-linux-gnu/bits/getopt_core.h
+ /usr/include/x86_64-linux-gnu/bits/unistd_ext.h
+ /usr/include/linux/close_range.h
  /opt/ros/humble/include/rclcpp/rclcpp/node.hpp
  /usr/include/c++/11/atomic
  /usr/include/c++/11/condition_variable
  /usr/include/c++/11/bits/std_mutex.h
  /usr/include/c++/11/system_error
  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h
- /usr/include/c++/11/stdexcept
  /usr/include/c++/11/bits/unique_lock.h
  /usr/include/c++/11/list
  /usr/include/c++/11/bits/stl_list.h
@@ -281,11 +297,6 @@ CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o
  /opt/ros/humble/include/rcl/rcl/domain_id.h
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/list_parameters_result.hpp
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp
- /usr/include/c++/11/algorithm
- /usr/include/c++/11/pstl/glue_algorithm_defs.h
- /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp
- /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp
- /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__traits.hpp
  /usr/include/c++/11/sstream
@@ -332,7 +343,6 @@ CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp
- /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__struct.hpp
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__builder.hpp
@@ -602,7 +612,6 @@ CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o
  /home/luka/rover_workspace/install/general_interfaces/include/general_interfaces/general_interfaces/msg/detail/arm_pose__traits.hpp
  /opt/ros/humble/include/control_msgs/control_msgs/msg/joint_trajectory_controller_state.hpp
  /opt/ros/humble/include/control_msgs/control_msgs/msg/detail/joint_trajectory_controller_state__struct.hpp
- /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp
  /opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__struct.hpp
  /opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__struct.hpp
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp
@@ -618,4 +627,7 @@ CMakeFiles/ik_hardware_interface.dir/src/ik_hardware_interface.cpp.o
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/joint_state.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__builder.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__traits.hpp
 

@@ -3,6 +3,7 @@
 #include <rclcpp/rclcpp.hpp>
 #include <moveit/move_group_interface/move_group_interface.h>
 #include <thread>
+#include <unistd.h>
 
 int main(int argc, char * argv[])
 {
@@ -14,6 +15,8 @@ int main(int argc, char * argv[])
     "uorover_ik",
     rclcpp::NodeOptions().automatically_declare_parameters_from_overrides(true)
   );
+
+  sleep(10);
 
   rclcpp::executors::SingleThreadedExecutor executor;
   executor.add_node(node);
@@ -30,8 +33,8 @@ int main(int argc, char * argv[])
       msg.orientation.x = 0.706979;
       msg.orientation.y = 1e-6;
       msg.orientation.z = 1e-6;
-      msg.position.x = 0.400;
-      msg.position.y = -0.100;
+      msg.position.x = 0.600;
+      msg.position.y = 0.000;
       msg.position.z = 0.400;
       return msg;
   }();
