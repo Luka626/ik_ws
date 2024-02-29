@@ -71,11 +71,6 @@ namespace rmm_hardware
             state_interfaces.emplace_back(joint_name, "position", &joint_position_[joint++]);
         }
 
-        joint = TOWER;
-        for (const auto &joint_name : joint_interfaces["velocity"]){
-            state_interfaces.emplace_back(joint_name, "velocity", &joint_velocities_[joint++]);
-        }
-
         return state_interfaces;
     }
         
