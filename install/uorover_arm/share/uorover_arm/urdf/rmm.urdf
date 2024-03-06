@@ -282,8 +282,8 @@
     name="q4"
     type="revolute">
     <origin
-      xyz="0.25 0 0.00014259"
-      rpy="0 0 0.3938" />
+      xyz="0.25 0 0.0014259"
+      rpy="0 0 0" />
     <parent
       link="L4" />
     <child
