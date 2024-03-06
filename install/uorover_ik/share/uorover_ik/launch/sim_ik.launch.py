@@ -1,6 +1,5 @@
 from launch_ros.actions import Node
 import os
-from launch.actions import ExecuteProcess
 from moveit_configs_utils import MoveItConfigsBuilder
 from moveit_configs_utils.launches import LaunchDescription
 from moveit_configs_utils.moveit_configs_builder import get_package_share_directory
@@ -13,7 +12,7 @@ def generate_launch_description():
                 package_name="uorover_moveit_config"
                 )
             .robot_description(mappings={
-                "use_mock_hardware": "false",
+                "use_mock_hardware": "true",
                 })
             .trajectory_execution(file_path="config/moveit_controllers.yaml")
             .planning_scene_monitor(
