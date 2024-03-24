@@ -76,6 +76,7 @@ def generate_launch_description():
             package="controller_manager",
             executable="ros2_control_node",
             parameters=[moveit_config.robot_description, ros2_controllers_path],
+            output = "both"
             )
 
     arm_controller_node = Node(
