@@ -2,3 +2,5 @@ lib/
 build/
 log/
 install/
+
+**.ikcache
