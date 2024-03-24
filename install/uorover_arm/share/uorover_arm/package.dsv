@@ -1,6 +1,0 @@
-source;share/uorover_arm/hook/pythonpath.ps1
-source;share/uorover_arm/hook/pythonpath.dsv
-source;share/uorover_arm/hook/pythonpath.sh
-source;share/uorover_arm/hook/ament_prefix_path.ps1
-source;share/uorover_arm/hook/ament_prefix_path.dsv
-source;share/uorover_arm/hook/ament_prefix_path.sh
