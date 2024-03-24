@@ -41,7 +41,7 @@ def generate_launch_description():
 
     declare_urdf_cmd = DeclareLaunchArgument(
         'urdf_file',
-        default_value=os.path.join(bringup_dir, 'urdf', 'crane.urdf'),
+        default_value=os.path.join(bringup_dir, 'urdf', 'rmm.urdf'),
         description='Whether to start RVIZ')
  
 
