@@ -1,0 +1,50 @@
+[1.051s] Invoking command in '/home/luka/ws_moveit2/src/uorover_arm': PYTHONPATH=/home/luka/ws_moveit2/build/uorover_arm/prefix_override:/home/luka/ws_moveit2/install/uorover_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/uorover_arm build --build-base /home/luka/ws_moveit2/build/uorover_arm/build install --record /home/luka/ws_moveit2/build/uorover_arm/install.log --single-version-externally-managed
+[1.335s] running egg_info
+[1.336s] creating ../../build/uorover_arm/uorover_arm.egg-info
+[1.336s] writing ../../build/uorover_arm/uorover_arm.egg-info/PKG-INFO
+[1.336s] writing dependency_links to ../../build/uorover_arm/uorover_arm.egg-info/dependency_links.txt
+[1.337s] writing entry points to ../../build/uorover_arm/uorover_arm.egg-info/entry_points.txt
+[1.337s] writing requirements to ../../build/uorover_arm/uorover_arm.egg-info/requires.txt
+[1.337s] writing top-level names to ../../build/uorover_arm/uorover_arm.egg-info/top_level.txt
+[1.337s] writing manifest file '../../build/uorover_arm/uorover_arm.egg-info/SOURCES.txt'
+[1.339s] reading manifest file '../../build/uorover_arm/uorover_arm.egg-info/SOURCES.txt'
+[1.340s] writing manifest file '../../build/uorover_arm/uorover_arm.egg-info/SOURCES.txt'
+[1.340s] running build
+[1.340s] running build_py
+[1.340s] creating /home/luka/ws_moveit2/build/uorover_arm/build
+[1.340s] creating /home/luka/ws_moveit2/build/uorover_arm/build/lib
+[1.340s] creating /home/luka/ws_moveit2/build/uorover_arm/build/lib/uorover_arm
+[1.340s] copying uorover_arm/__init__.py -> /home/luka/ws_moveit2/build/uorover_arm/build/lib/uorover_arm
+[1.340s] running install
+[1.340s] running install_lib
+[1.341s] creating /home/luka/ws_moveit2/install/uorover_arm/lib/python3.10/site-packages/uorover_arm
+[1.341s] copying /home/luka/ws_moveit2/build/uorover_arm/build/lib/uorover_arm/__init__.py -> /home/luka/ws_moveit2/install/uorover_arm/lib/python3.10/site-packages/uorover_arm
+[1.342s] byte-compiling /home/luka/ws_moveit2/install/uorover_arm/lib/python3.10/site-packages/uorover_arm/__init__.py to __init__.cpython-310.pyc
+[1.342s] running install_data
+[1.343s] creating /home/luka/ws_moveit2/install/uorover_arm/share/ament_index
+[1.343s] creating /home/luka/ws_moveit2/install/uorover_arm/share/ament_index/resource_index
+[1.343s] creating /home/luka/ws_moveit2/install/uorover_arm/share/ament_index/resource_index/packages
+[1.343s] copying resource/uorover_arm -> /home/luka/ws_moveit2/install/uorover_arm/share/ament_index/resource_index/packages
+[1.344s] copying package.xml -> /home/luka/ws_moveit2/install/uorover_arm/share/uorover_arm
+[1.344s] copying launch/launch.py -> /home/luka/ws_moveit2/install/uorover_arm/share/uorover_arm
+[1.344s] creating /home/luka/ws_moveit2/install/uorover_arm/share/uorover_arm/urdf
+[1.344s] copying urdf/rmm.urdf -> /home/luka/ws_moveit2/install/uorover_arm/share/uorover_arm/urdf/
+[1.344s] creating /home/luka/ws_moveit2/install/uorover_arm/share/uorover_arm/rviz
+[1.344s] creating /home/luka/ws_moveit2/install/uorover_arm/share/uorover_arm/meshes
+[1.344s] creating /home/luka/ws_moveit2/install/uorover_arm/share/uorover_arm/meshes/collision
+[1.344s] copying meshes/collision/L4.STL -> /home/luka/ws_moveit2/install/uorover_arm/share/uorover_arm/meshes/collision/
+[1.348s] copying meshes/collision/L1.STL -> /home/luka/ws_moveit2/install/uorover_arm/share/uorover_arm/meshes/collision/
+[1.351s] copying meshes/collision/L2.STL -> /home/luka/ws_moveit2/install/uorover_arm/share/uorover_arm/meshes/collision/
+[1.353s] copying meshes/collision/L3.STL -> /home/luka/ws_moveit2/install/uorover_arm/share/uorover_arm/meshes/collision/
+[1.353s] copying meshes/collision/L5.STL -> /home/luka/ws_moveit2/install/uorover_arm/share/uorover_arm/meshes/collision/
+[1.370s] creating /home/luka/ws_moveit2/install/uorover_arm/share/uorover_arm/meshes/visual
+[1.370s] copying meshes/visual/L4.STL -> /home/luka/ws_moveit2/install/uorover_arm/share/uorover_arm/meshes/visual/
+[1.374s] copying meshes/visual/L1.STL -> /home/luka/ws_moveit2/install/uorover_arm/share/uorover_arm/meshes/visual/
+[1.376s] copying meshes/visual/L2.STL -> /home/luka/ws_moveit2/install/uorover_arm/share/uorover_arm/meshes/visual/
+[1.377s] copying meshes/visual/L3.STL -> /home/luka/ws_moveit2/install/uorover_arm/share/uorover_arm/meshes/visual/
+[1.377s] copying meshes/visual/L5.STL -> /home/luka/ws_moveit2/install/uorover_arm/share/uorover_arm/meshes/visual/
+[1.391s] running install_egg_info
+[1.392s] Copying ../../build/uorover_arm/uorover_arm.egg-info to /home/luka/ws_moveit2/install/uorover_arm/lib/python3.10/site-packages/uorover_arm-0.0.0-py3.10.egg-info
+[1.393s] running install_scripts
+[1.410s] writing list of installed files to '/home/luka/ws_moveit2/build/uorover_arm/install.log'
+[1.429s] Invoked command in '/home/luka/ws_moveit2/src/uorover_arm' returned '0': PYTHONPATH=/home/luka/ws_moveit2/build/uorover_arm/prefix_override:/home/luka/ws_moveit2/install/uorover_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/uorover_arm build --build-base /home/luka/ws_moveit2/build/uorover_arm/build install --record /home/luka/ws_moveit2/build/uorover_arm/install.log --single-version-externally-managed

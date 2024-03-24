@@ -1,0 +1,96 @@
+[0.500s] Invoking command in '/home/luka/ws_moveit2/build/uorover_ik': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/rover_workspace/install/robotic_arm_controls:/home/luka/rover_workspace/install/ld_controls:/home/luka/rover_workspace/install/gps_node:/home/luka/rover_workspace/install/camera_nodes:/home/luka/rover_workspace/install/drive_urdf:/home/luka/rover_workspace/install/drive_controls:/home/luka/ws_moveit2/install/uorover_arm:/opt/ros/humble /usr/bin/cmake /home/luka/ws_moveit2/src/uorover_ik -DCMAKE_EXPORT_COMPILE_COMMANDS=1 -DCMAKE_INSTALL_PREFIX=/home/luka/ws_moveit2/install/uorover_ik
+[0.561s] -- The C compiler identification is GNU 11.4.0
+[0.615s] -- The CXX compiler identification is GNU 11.4.0
+[0.625s] -- Detecting C compiler ABI info
+[0.689s] -- Detecting C compiler ABI info - done
+[0.695s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.695s] -- Detecting C compile features
+[0.696s] -- Detecting C compile features - done
+[0.698s] -- Detecting CXX compiler ABI info
+[0.771s] -- Detecting CXX compiler ABI info - done
+[0.777s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.777s] -- Detecting CXX compile features
+[0.778s] -- Detecting CXX compile features - done
+[0.781s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.936s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.033s] -- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[1.201s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[1.256s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.262s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.272s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.287s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.309s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.237s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[2.256s] -- Found parameter_traits: 0.3.7 (/opt/ros/humble/share/parameter_traits/cmake)
+[2.329s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.333s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[2.372s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.384s] -- Found Threads: TRUE  
+[2.542s] -- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.589s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[2.688s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.850s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.850s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.395s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[3.927s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[4.218s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[4.675s] -- Found control_msgs: 4.4.0 (/opt/ros/humble/share/control_msgs/cmake)
+[4.856s] -- Found general_interfaces: 0.1.0 (/home/luka/rover_workspace/install/general_interfaces/share/general_interfaces/cmake)
+[4.905s] -- Found hardware_interface: 2.39.1 (/opt/ros/humble/share/hardware_interface/cmake)
+[5.098s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.185s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.185s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/luka/ws_moveit2/src/uorover_ik/include>;$<BUILD_INTERFACE:/home/luka/ws_moveit2/src/uorover_ik/hardware/include>
+[5.185s] -- Configured cppcheck exclude dirs and/or files: 
+[5.186s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.187s] -- Added test 'lint_cmake' to check CMake code style
+[5.187s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.188s] -- Added test 'uncrustify' to check C / C++ code style
+[5.188s] -- Configured uncrustify additional arguments: 
+[5.189s] -- Added test 'xmllint' to check XML markup files
+[5.191s] -- Configuring done
+[5.227s] -- Generating done
+[5.230s] -- Build files have been written to: /home/luka/ws_moveit2/build/uorover_ik
+[5.247s] Invoked command in '/home/luka/ws_moveit2/build/uorover_ik' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/rover_workspace/install/robotic_arm_controls:/home/luka/rover_workspace/install/ld_controls:/home/luka/rover_workspace/install/gps_node:/home/luka/rover_workspace/install/camera_nodes:/home/luka/rover_workspace/install/drive_urdf:/home/luka/rover_workspace/install/drive_controls:/home/luka/ws_moveit2/install/uorover_arm:/opt/ros/humble /usr/bin/cmake /home/luka/ws_moveit2/src/uorover_ik -DCMAKE_EXPORT_COMPILE_COMMANDS=1 -DCMAKE_INSTALL_PREFIX=/home/luka/ws_moveit2/install/uorover_ik
+[5.249s] Invoking command in '/home/luka/ws_moveit2/build/uorover_ik': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/rover_workspace/install/robotic_arm_controls:/home/luka/rover_workspace/install/ld_controls:/home/luka/rover_workspace/install/gps_node:/home/luka/rover_workspace/install/camera_nodes:/home/luka/rover_workspace/install/drive_urdf:/home/luka/rover_workspace/install/drive_controls:/home/luka/ws_moveit2/install/uorover_arm:/opt/ros/humble /usr/bin/cmake --build /home/luka/ws_moveit2/build/uorover_ik -- -j12 -l12
+[5.297s] [ 25%] [32mBuilding CXX object CMakeFiles/uorover_ik.dir/src/uorover_ik.cpp.o[0m
+[5.297s] [ 50%] [32mBuilding CXX object CMakeFiles/rmm_hardware.dir/hardware/rmm_hardware.cpp.o[0m
+[12.184s] [ 75%] [32m[1mLinking CXX executable uorover_ik[0m
+[12.481s] [ 75%] Built target uorover_ik
+[12.593s] [100%] [32m[1mLinking CXX shared library librmm_hardware.so[0m
+[13.022s] [100%] Built target rmm_hardware
+[13.033s] Invoked command in '/home/luka/ws_moveit2/build/uorover_ik' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/rover_workspace/install/robotic_arm_controls:/home/luka/rover_workspace/install/ld_controls:/home/luka/rover_workspace/install/gps_node:/home/luka/rover_workspace/install/camera_nodes:/home/luka/rover_workspace/install/drive_urdf:/home/luka/rover_workspace/install/drive_controls:/home/luka/ws_moveit2/install/uorover_arm:/opt/ros/humble /usr/bin/cmake --build /home/luka/ws_moveit2/build/uorover_ik -- -j12 -l12
+[13.064s] Invoking command in '/home/luka/ws_moveit2/build/uorover_ik': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/rover_workspace/install/robotic_arm_controls:/home/luka/rover_workspace/install/ld_controls:/home/luka/rover_workspace/install/gps_node:/home/luka/rover_workspace/install/camera_nodes:/home/luka/rover_workspace/install/drive_urdf:/home/luka/rover_workspace/install/drive_controls:/home/luka/ws_moveit2/install/uorover_arm:/opt/ros/humble /usr/bin/cmake --install /home/luka/ws_moveit2/build/uorover_ik
+[13.070s] -- Install configuration: ""
+[13.070s] -- Installing: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/rmm_hardware.xml
+[13.071s] -- Installing: /home/luka/ws_moveit2/install/uorover_ik/lib/uorover_ik/uorover_ik
+[13.071s] -- Set runtime path of "/home/luka/ws_moveit2/install/uorover_ik/lib/uorover_ik/uorover_ik" to ""
+[13.071s] -- Installing: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/launch
+[13.072s] -- Installing: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/launch/sim_ik.launch.py
+[13.072s] -- Installing: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/launch/ik.launch.py
+[13.072s] -- Installing: /home/luka/ws_moveit2/install/uorover_ik/include/rmm_hardware
+[13.072s] -- Installing: /home/luka/ws_moveit2/install/uorover_ik/include/rmm_hardware/uorover_ik
+[13.072s] -- Installing: /home/luka/ws_moveit2/install/uorover_ik/include/rmm_hardware/uorover_ik/rmm_hardware.hpp
+[13.072s] -- Installing: /home/luka/ws_moveit2/install/uorover_ik/lib/librmm_hardware.so
+[13.078s] -- Set runtime path of "/home/luka/ws_moveit2/install/uorover_ik/lib/librmm_hardware.so" to ""
+[13.078s] -- Installing: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/environment/library_path.sh
+[13.078s] -- Installing: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/environment/library_path.dsv
+[13.079s] -- Installing: /home/luka/ws_moveit2/install/uorover_ik/share/ament_index/resource_index/package_run_dependencies/uorover_ik
+[13.079s] -- Installing: /home/luka/ws_moveit2/install/uorover_ik/share/ament_index/resource_index/parent_prefix_path/uorover_ik
+[13.079s] -- Installing: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/environment/ament_prefix_path.sh
+[13.079s] -- Installing: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/environment/ament_prefix_path.dsv
+[13.079s] -- Installing: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/environment/path.sh
+[13.079s] -- Installing: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/environment/path.dsv
+[13.079s] -- Installing: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/local_setup.bash
+[13.079s] -- Installing: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/local_setup.sh
+[13.079s] -- Installing: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/local_setup.zsh
+[13.080s] -- Installing: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/local_setup.dsv
+[13.080s] -- Installing: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/package.dsv
+[13.080s] -- Installing: /home/luka/ws_moveit2/install/uorover_ik/share/ament_index/resource_index/packages/uorover_ik
+[13.080s] -- Installing: /home/luka/ws_moveit2/install/uorover_ik/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/uorover_ik
+[13.080s] -- Installing: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/cmake/rmm_hardwareExport.cmake
+[13.080s] -- Installing: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/cmake/rmm_hardwareExport-noconfig.cmake
+[13.081s] -- Installing: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/cmake/ament_cmake_export_targets-extras.cmake
+[13.081s] -- Installing: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/cmake/uorover_ikConfig.cmake
+[13.081s] -- Installing: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/cmake/uorover_ikConfig-version.cmake
+[13.081s] -- Installing: /home/luka/ws_moveit2/install/uorover_ik/share/uorover_ik/package.xml
+[13.083s] Invoked command in '/home/luka/ws_moveit2/build/uorover_ik' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/rover_workspace/install/robotic_arm_controls:/home/luka/rover_workspace/install/ld_controls:/home/luka/rover_workspace/install/gps_node:/home/luka/rover_workspace/install/camera_nodes:/home/luka/rover_workspace/install/drive_urdf:/home/luka/rover_workspace/install/drive_controls:/home/luka/ws_moveit2/install/uorover_arm:/opt/ros/humble /usr/bin/cmake --install /home/luka/ws_moveit2/build/uorover_ik
